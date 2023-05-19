@@ -1,21 +1,22 @@
-Lab 01
+Lab 01 - Zmienne, operatory, instrukcje warunkowe. IN/OUT
 
 Pytania
-Jak działa dyrektywa #include?
-Czym jest zmienna? Jak deklarujemy zmienne?
-Typy zmiennych w C
-Czego potrzebuje program by działać?
-Czym jest literał?**
-instrukcja
-Budowa funkcji.
-Operatory:
-przypisania
-artymetyczne
-porównania
-logiczne**
-dostępu**
+1. Jak działa dyrektywa #include?
+2. Czym jest zmienna? Jak deklarujemy zmienne?
+3. Typy zmiennych w C
+4. Czego potrzebuje program by działać?
+5. Czym jest literał?
+6. Instrukcje**
+7. Budowa funkcji.
+8. Operatory:
+- przypisania
+- artymetyczne
+- porównania
+- logiczne**
+- dostępu**
+
 Zadania
-Utwórz folder Lab2 na pulpicie, następnie otwórz folder w Visual Studio Code.
+Utwórz folder Lab01 na pulpicie, następnie otwórz folder w Visual Studio Code.
 
 Zadanie 1 - I/O i zmienne
 Deklaracja zmiennej wygląda następująco `[typ zmiennej] [nazwa zmiennej]; np.:
