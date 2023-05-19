@@ -1,4 +1,4 @@
-Lab 00
+Lab 00 - Konfiguracja środowiska
 
 Pytania:
 1. Znajdź i wypisz wersje standardu języka C.
