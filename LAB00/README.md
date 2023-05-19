@@ -1,10 +1,11 @@
 Lab 00
 
-Pytania
-Znajdź i wypisz wersje standardu języka C.
-Czym jest kompilator?
-Opisz czym jest IDE (Zintegrowane środowisko programistyczne). W jaki sposób ułatwia pracę programisty?
-Wymień konwencje nazewnictwa zmiennych w programowaniu i podaj przykłady.
+Pytania:
+1. Znajdź i wypisz wersje standardu języka C.
+2. Czym jest kompilator?
+3. Opisz czym jest IDE (Zintegrowane środowisko programistyczne). W jaki sposób ułatwia pracę programisty?
+4. Wymień konwencje nazewnictwa zmiennych w programowaniu i podaj przykłady.
+
 Zadania (opis dla systemów Windows):
 Zainstalować Visual Studio Code
 Zainstalować kompilator języka C. Np. Pakiet MinGW zawierający kompilator GCC dla Windows. :warning: Zwróć uwagę na lokalizację zainstalowania pakietu. Będzie ona potrzebna przy kolejnych krokach.
@@ -27,10 +28,10 @@ new_path
 Potwierdź wciskając ok i ponownie przetestuj polecenie gcc w terminalu CMD lub PowerShell. Powinien pojawić się następujący komunikat
 
 cmd_gcc
-Utworzyć folder ze swoimi inicjałami oraz numerem albumu na pulpicie a w nim folder lab1. Uruchomić Visual Studio Code a następnie otworzyć utworzony folder lab1.
-Utwórz plik myfirstapp.c (pliki źródłowe aplikacji, które wymagają kompilacji mają sufix .c [1] [2])
+Utworzyć folder ze swoimi inicjałami oraz numerem albumu na pulpicie a w nim folder lab1. Uruchomić Visual Studio Code a następnie otworzyć utworzony folder lab00.
+Utwórz plik myfirstapp.c (pliki źródłowe aplikacji, które wymagają kompilacji mają sufix.c
 W utworzonym pliku napisz swój pierwszy program wypisujący napis Hello World! Oraz wersję standardu języka c użytego przy kompilacji.
-hello_worldc
+hello_world.c
 Zapisz plik, uruchom terminal, a następnie skompiluj program poleceniem gcc ścieżka_do_programu –o nazwa_pliku_wykonywalnego [1]
 Uruchom skompilowany program wpisując jego nazwę w terminalu. Uruchom program drugim sposobem dwukrotnie klikając w plik.
 Visual Studio Code jest narzędziem które możemy konfigurować wedle swoich potrzeb dzięki pluginom. Zainstaluj C/C++ Extension Pack. Jedną z jego funkcjonalności jest kolorowanie składni.
@@ -42,8 +43,6 @@ Skompiluj i uruchom program korzystając z IDE Visual Studio Code dzięki zainst
 run program
 
 Zmodyfikuj program "zakomentowując" deklarację biblioteki stdlib.h (linie zaczynające się od znaków "//" są komentarzami nie mającymmi wpływu na działanie kodu. Kompilator je pomija).
-
-error
 
 Uruchom program i znajdź miejsce, w którym jest opisany błąd występujący w programie.
 
