@@ -1,13 +1,14 @@
-Lab 02
+Lab 03 - pętle o tablice
 
-Pytania
-W jaki sposób definiujemy tablice?
-Jak odczytać wartość z tablicy?
-Jak zmodyfikować wartość tablicy?
-Czym są tablice wielowymiarowe?
-Jak zbudowana jest pętla for?
-Jak zbudowana jest pętla while/do while?
-Przykłady
+Pytania:
+1. W jaki sposób definiujemy tablice?
+2. Jak odczytać wartość z tablicy?
+3. Jak zmodyfikować wartość tablicy?
+4. Czym są tablice wielowymiarowe?
+5. Jak zbudowana jest pętla for?
+6. Jak zbudowana jest pętla while/do while?
+
+Przykłady:
 Defioniowanie tablic jedno i wielowymiarowych:
 #include <stdlib.h>
 #include <stdio.h>
@@ -111,7 +112,11 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-Zadania
+
+
+Zadania:
+
+
 Zadanie 1 - task1.exe
 Utwórz program który przechowa dane następującej tabeli:
 
@@ -159,4 +164,4 @@ Modyfikacja wybranej komórki
 Wyjście z progrmau
 Program ma działać dopóki użytkownik nie wybierze opcji 4. W przypadkach 1,2,3 ma umożliwiać użytkownikowi wybranie wiersza/koumny a następnie wykonywać odpowiednie obliczenia.
 
-test sprawdzający wartość średniej
+test sprawdzający wartość średniej.
