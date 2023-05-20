@@ -1,7 +1,6 @@
-lab03
+Lab03 - funkcje, wskaźniki, zakres zmiennych
 
-Pytania
-Przykłady
+Przykłady:
 Funkcje
 #include <stdio.h>
 
@@ -114,7 +113,10 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-Zadania
+
+
+Zadania:
+
 Zadanie 1 - task1.exe i task1.c
 (Skopiuj kod z drugiego laboratorium gdzie należało wypisać swoje dane oraz dwóch osób obok. Wykorzystując funkcję zoptymalizuj kod tak by zajmował jak najmniej lini kodu.)
 
@@ -135,13 +137,9 @@ min - minimalną wartość z tablicy
 max - maksymalną wartość z tablicy
 median - medianę z tablicy
 mean - średnią z tablicy
+
 Zadanie 5 - task5.exe i task5.c
-Utworzyć funkcję mystdev() która może przyjmować rózne liczby parametrów liczb zmienno przecinkowych i zwraca średnią argumentów. Zmodyfikuj funkcję tak by zwracała odchylenie standardowe (zapoznaj się z dokumentacją biblioteki math.h i wyszukaj odpowiednie funkcje) przekazanych argumentów według wzoru:
- 
- 
-gdzie
- 
- 
+Utworzyć funkcję mystdev() która może przyjmować rózne liczby parametrów liczb zmienno przecinkowych i zwraca średnią argumentów. Zmodyfikuj funkcję tak by zwracała odchylenie standardowe (zapoznaj się z dokumentacją biblioteki math.h i wyszukaj odpowiednie funkcje) przekazanych argumentów według wzoru.
 
 Zadanie 6
 Utwórz tablicę liter od a do z. Za pomocą wskaźników wypisz literę f.
