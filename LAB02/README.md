@@ -1,4 +1,4 @@
-Lab 03 - pętle o tablice
+Lab 03 - Pętle o tablice
 
 Pytania:
 1. W jaki sposób definiujemy tablice?
