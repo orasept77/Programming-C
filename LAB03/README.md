@@ -1,7 +1,7 @@
-Lab03 - funkcje, wskaźniki, zakres zmiennych
+Lab03 - Funkcje, wskaźniki, zakres zmiennych
 
 Przykłady:
-Funkcje
+
 #include <stdio.h>
 
 // przed nazwą funkcji podajemy typ jaki powinna zwrócić
@@ -150,7 +150,8 @@ Utwórz tablicę liter od a do z. Utwórz pętlę w której za pomocą wskaźnik
 Zadanie 8 - swap.exe i swap.c
 Napisz funkcję swap() która przyjmuje wskaźniki do dwóch zmiennych typu float. Funkcja zamienia wartośći tych zmiennych.
 
-Dodatkowe przykłady
+Dodatkowe przykłady:
+
 Znalezienie wskaznika na liczbę w tablicy.
 Zadaniem jest znalezienie wskaźnika na element w 2 wierszu a 3 kolumnie a następnie zmiana wartośći tego elementu.
 
