@@ -1,6 +1,6 @@
 # **Programming-C**
 
-## **Język C**
+### **Język C**
 
 ## **Opis:**
 Repozytorium Język C zawiera przykładowe projekty, kod źródłowy i materiały edukacyjne związane z programowaniem w języku C. Język C jest językiem programowania ogólnego przeznaczenia, który jest szeroko stosowany do tworzenia efektywnych i wydajnych programów. Repozytorium to ma na celu dostarczenie materiałów i przykładów dla programistów, którzy chcą nauczyć się programowania w języku C lub poszerzyć swoją wiedzę na temat tego języka.
