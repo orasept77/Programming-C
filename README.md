@@ -15,7 +15,7 @@ Repozytorium Język C zawiera przykładowe projekty, kod źródłowy i materiał
 ## **Jak zacząć:**
 Sklonuj repozytorium na swój lokalny komputer:
 ```
-git clone https://github.com/twoj-uzytkownik/c-language.git
+git clone https://github.com/dawidolko/Programming-C.git
 ```
 
 Przeglądaj dostępne projekty, skrypty i materiały w odpowiednich folderach.
