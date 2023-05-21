@@ -10,6 +10,7 @@ Pytania:
 
 Przykłady:
 Defioniowanie tablic jedno i wielowymiarowych:
+```
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
@@ -31,8 +32,9 @@ int main(int argc, char const *argv[])
     printf("array[4] = %i\n", array[4]); // poza zakresem zadeklarowanej tablicy
     return 0;
 }
+```
 Poniższy literał pozwala na zdefiniowanie tablicy o danej wielkości i przypisnanie odrazu wartości do kolejnych pól tablicy.
-
+```
 int array[3] = {1,2,3};
 Lub bez podawania wielkośći. Kompilator odczyta ją z literału deklarującego wartości.
 
@@ -55,13 +57,15 @@ int main(int argc, char const *argv[])
     array[1][2] = 6;
     return 0;
 }
+```
 Definiowanie i przypisanie wartości tablicy wielowymiarowej.
-
+```
 char chararray[3][2] = { {'a','b'},
                          { 'c','d' },
                          { 'e','f' } };
 
 printf("%c",chararray[1][1]);
+```
 Pętle
 for
 
@@ -70,7 +74,7 @@ do-while
 while
 
 break - przerywa działanie pętli.
-
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -83,8 +87,9 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
+```
 W standardzie c99 nie można zadeklarować wartości w pętli jak w powyższym przykładzie.
-
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -98,8 +103,10 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
+```
 continue - przechodzi do następnej iteracji.
 
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -112,21 +119,24 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-
+```
 
 Zadania:
 
 
-Zadanie 1 - task1.exe
-Utwórz program który przechowa dane następującej tabeli:
+Zadanie 1. [task1.exe]
 
+Utwórz program który przechowa dane następującej tabeli:
+```
 3.1	3.6
 2.2	6.42
 3.1	3.6
 3.5	32.6
+```
 Wypisz w konsoli zaznaczoną wartość używając indeksów. Zmodyfikuj program tak by użytkownik mógł wskazać który element tablicy chce odczytać.
 
-Zadanie 2 - forexcercise.exe
+Zadanie 2. [forexcercise.exe]
+
 Utwórz program który wypisuje liczby od 0 do 20.
 
 Utwórz program który wypisuje liczby od 5 do 25.
@@ -137,23 +147,30 @@ Utwórz program który wypisuje począwszy od 1 co 3 kolejną liczbę do wartoś
 
 Utwórz program który wypisuje 100 liczb podzielnych przez 5.
 
-Zadanie 3 - printtable.exe
+Zadanie 3. [printtable.exe]
+
 Utwórz program który wypisze w konsoli tablicę z poprzedniego zadania wykorzystując pętlę w formacie:
+```
 | 3.1 | 3.6   |
 | 2.2 | 6.42 |
 | 3.1 | 3.6   |
 | 3.5 | 32.6 |
+```
 
-Zadanie 4 - task4.exe
+Zadanie 4. [task4.exe]
+
 Używając instrukcji break i continue napisz program który wypisze liczby od 0 do zadanej przez użytkownika wartości z pominięciem liczb podzielnych przez 3.
 
-Zadanie 5 - otherloops.exe
+Zadanie 5. [otherloops.exe]
+
 Spróbuj wykonać poprzednie zadanie za pomocą innej pętli(jeśli używałeś for za pomocą pętli while lub do-while).
 
-Zadanie 6 - primenumbers.exe
+Zadanie 6. [primenumbers.exe]
+
 Utwórz program który wypisuje kolejne liczby pierwsze.*
 
-Zadanie 7 - twodimensionarray.exe
+Zadanie 7. [twodimensionarray.exe]
+
 Napisz program który przechowuje w tablicy 3x3 wartości podane przez użytkownika.
 
 Dodaj do programu menu z następującymi opcjami:
