@@ -1,6 +1,6 @@
-Lab 00 - Konfiguracja środowiska
+# **Lab 00 - Konfiguracja środowiska**
 
-Pytania:
+### **Pytania:**
 1. Znajdź i wypisz wersje standardu języka C.
 2. Czym jest kompilator?
 3. Opisz czym jest IDE (Zintegrowane środowisko programistyczne). W jaki sposób ułatwia pracę programisty?
