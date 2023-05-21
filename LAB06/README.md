@@ -1,4 +1,4 @@
-# *Lab06 - Gra w kółko i krzyżyk**
+# **Lab06 - Gra w kółko i krzyżyk**
 
 Gra w kółko i krzyżyk https://drive.google.com/drive/folders/1-ceXITf1pQ7zAF0N5p8NqOXGnKtbVl4-?usp=sharing
 
