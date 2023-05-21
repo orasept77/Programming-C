@@ -1,6 +1,6 @@
-Lab03 - Funkcje, wskaźniki, zakres zmiennych
+# **Lab03 - Funkcje, wskaźniki, zakres zmiennych**
 
-Przykłady:
+### **Przykłady:**
 
 ```
 #include <stdio.h>
@@ -133,9 +133,9 @@ int main(int argc, char const *argv[])
 ```
 
 
-Zadania:
+## **Zadania:**
 
-Zadanie 1. [task1.exe i task1.c]
+### **Zadanie 1. [task1.exe i task1.c]**
 
 (Skopiuj kod z drugiego laboratorium gdzie należało wypisać swoje dane oraz dwóch osób obok. Wykorzystując funkcję zoptymalizuj kod tak by zajmował jak najmniej lini kodu.)
 
@@ -143,15 +143,15 @@ Napisz funkcję show() która przyjmuje imię i nazwisko a następnie wypisuje j
 
 Napisz funkcję suma() która zwraca sumę trzech liczb podanych jako argumenty funkcji.
 
-Zadanie 2. [task2.exe i task2.c]
+### **Zadanie 2. [task2.exe i task2.c]**
 
 Utwórz i przetestuj funkcję max_tab() która przyjmuje jako argument 10-elementową tablicę liczb całkowitych a następnie zwraca największy element tablicy.
 
-Zadanie 3. [task3.exe i task3.c]
+### **Zadanie 3. [task3.exe i task3.c]**
 
 Utwórz i przetestuj funkcję mean() która jako argument przyjmuje 10-elementową tablicę liczb całkowitych a następnie zwraca średnią z tablicy.
 
-Zadanie 4. [stats.exe i stats.c]
+### **Zadanie 4. [stats.exe i stats.c]**
 
 Korzystając z dokumentacji biblioteki string.h utwórz i przetestuj funkcję stats() która jako argument przyjmuje 10-elementową tablicę liczb całkowitych oraz łańcuch znaków który w zależności od przechowywanej zmiennej sprawi że funkcja zwróci inną wartość:
 
@@ -160,19 +160,19 @@ max - maksymalną wartość z tablicy
 median - medianę z tablicy
 mean - średnią z tablicy
 
-Zadanie 5. [task5.exe i task5.c]
+### **Zadanie 5. [task5.exe i task5.c]**
 
 Utworzyć funkcję mystdev() która może przyjmować rózne liczby parametrów liczb zmienno przecinkowych i zwraca średnią argumentów. Zmodyfikuj funkcję tak by zwracała odchylenie standardowe (zapoznaj się z dokumentacją biblioteki math.h i wyszukaj odpowiednie funkcje) przekazanych argumentów według wzoru.
 
-Zadanie 6. [task6.exe i task6.c]
+### **Zadanie 6. [task6.exe i task6.c]**
 
 Utwórz tablicę liter od a do z. Za pomocą wskaźników wypisz literę f.
 
-Zadanie 7. [task7.exe i task7.c]
+### **Zadanie 7. [task7.exe i task7.c]**
 
 Utwórz tablicę liter od a do z. Utwórz pętlę w której za pomocą wskaźników wypiszesz co n-ty element(zdefiniowany przez użytkownika) tej tablicy począwszy od 'c'.
 
-Zadanie 8. [swap.exe i swap.c]
+### **Zadanie 8. [swap.exe i swap.c]**
 
 Napisz funkcję swap() która przyjmuje wskaźniki do dwóch zmiennych typu float. Funkcja zamienia wartośći tych zmiennych.
 
