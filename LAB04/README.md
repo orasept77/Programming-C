@@ -1,8 +1,10 @@
-lab04
+Lab04 - Biblioteki standartowe i operacje na łańcuchach znaków
 
-Pytania
-Przykłady
+Przykłady:
+
 typy danych i ich limity - biblioteka <limits.h>
+
+```
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
@@ -117,7 +119,10 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+```
+
 Czas - <time.h>
+```
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h> // biblioteka zawiera funkcję sleep która wstrzymuje wykonanie programu o dany czas
@@ -151,7 +156,10 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
-<string.h>
+```
+
+Łańcuch znaków - <string.h>
+```
 #include <string.h> // Import biblioteki
 #include <stdio.h>
 
@@ -234,7 +242,10 @@ int main(int argc, char const *argv[])
     
     return 0;
 }
-<math.h>
+```
+
+Pierwiastki, potęgi itd. - <math.h>
+```
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <stdio.h>
@@ -310,7 +321,10 @@ int main(int argc, char const *argv[])
     printf("fmod(%lf, %lf) = %lf \n",x,y,  result);
     return 0;
 }
-<stdio.h> scanf()
+```
+
+Standardowa biblioteka - <stdio.h> scanf()
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -330,6 +344,9 @@ int main(int argc, char const *argv[])
     scanf(" %c", &character);
     printf("character = %c\n", character);
 }
+```
+
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -343,6 +360,9 @@ int main(int argc, char const *argv[])
     // Znaki będą odczytywane tylko do spacji. wpisując "abc abc" do string przypisze się tylko abc
     return 0;
 }
+```
+
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -353,31 +373,31 @@ int main(int argc, char const *argv[])
     printf("a=%f b=%f c=%f", a ,b ,c);
     return 0;
 }
-Zadania
+```
+
+Zadania:
+
 Zadanie 0
 Przeanalizuj działanie przykładów.
 
 Zadanie 1 task1.exe
 Za pomocą pętli wypisz wszystkie znaki char i odpowiadające im wartośći całkowite w następującej postaci:
 
+```
 <0> = 48
 *Zmodyfikuj program tak by wypisywał znaki w 3 kolumnach pomijając 9, 10, 11, 12 które zostaną wypisane na końcu.
 
 <☺> = 1          <V> = 86        <½> = 171
 <☻> = 2          <W> = 87        <¼> = 172
 ...
+```
+
 Zadanie 2 task2.exe
 Napisz funkcję radianToDegree() oraz degreeToRadian() zamieniającą radiany na stopnie oraz stopnie na radiany. Funkcja powinna zwracać typ double.
 
- 
-
- 
-
 Zadanie 3 task3.exe
-Zadeklaruj zmienną string przechowującą łańcuch znaków o długości 200 znaków. Wartość zmiennej podaje użytkownik. Wypisz informację o ilości znaków w zmiennej:
+Zadeklaruj zmienną string przechowującą łańcuch znaków o długości 200 znaków. Wartość zmiennej podaje użytkownik. Wypisz informację o ilości znaków w zmiennej z wykorzystaniem funkcji biblioteki standardowej bez korzystania z biblioteki standardowej.
 
-z wykorzystaniem funkcji biblioteki standardowej.
-bez korzystania z biblioteki standardowej.
 Zadanie 4 task4.exe
 Napisz funkcję countwords() która wypisze ilość słów w łańcuchu znaków wedle zadanego separatora.
 
@@ -388,8 +408,11 @@ Napisz funkcję comparestr() która w procentach określi podobieństwo dwóch �
 
 Przetestuj funkcję na następujących danych:
 
+```
 char str1[100] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 char str2[50] = "      ipsum dolor sit amet";
+```
+
 Zadanie 6 task6.exe
 Przetestuj działanie funkcji kopiującej łańcuch znaków z biblioteki standardowej. Następnie bez korzystania z bibliotek standardowych napisz funkcję cpystr() która kopiuje zawartość łańcucha znaków do innej zmiennej.
 
@@ -404,7 +427,6 @@ Zadanie 8 task8.exe
 Napisz funkcję findandreplace() która w podanym jako parametr łańcuchu znaków szuka słowa podanego jako inny parametr a nastepnie zamienia na słowo podane jako kolejny parametr funkcji. Funkcja zwraca liczbę zmienionych słów.
 
 np.
-
 findandreplace("aaa ccc bbbcccdddwww ccc", "ccc", "aaa")
 zamieni "aaa ccc bbbcccdddwww ccc" na "aaa aaa bbbcccdddwww aaa" i zwróci wartość 2.
 
