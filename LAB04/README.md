@@ -2,7 +2,7 @@ Lab04 - Biblioteki standartowe i operacje na łańcuchach znaków
 
 Przykłady:
 
-typy danych i ich limity - biblioteka <limits.h>
+Typy danych i ich limity - biblioteka <limits.h>
 
 ```
 #include <stdlib.h>
@@ -121,7 +121,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Czas - <time.h>
+Czas - biblioteka <time.h>
 ```
 #include <time.h>
 #include <stdio.h>
@@ -158,7 +158,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Łańcuch znaków - <string.h>
+Łańcuch znaków - biblioteka <string.h>
 ```
 #include <string.h> // Import biblioteki
 #include <stdio.h>
@@ -244,7 +244,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Pierwiastki, potęgi itd. - <math.h>
+Pierwiastki, potęgi itd. - biblioteka <math.h>
 ```
 #define _USE_MATH_DEFINES
 #include <math.h>
@@ -323,7 +323,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Standardowa biblioteka - <stdio.h> scanf()
+Standardowa - biblioteka <stdio.h> scanf()
 ```
 #include <stdio.h>
 
@@ -377,10 +377,12 @@ int main(int argc, char const *argv[])
 
 Zadania:
 
-Zadanie 0
+Zadanie 0.
+
 Przeanalizuj działanie przykładów.
 
-Zadanie 1 task1.exe
+Zadanie 1. [task1.exe]
+
 Za pomocą pętli wypisz wszystkie znaki char i odpowiadające im wartośći całkowite w następującej postaci:
 
 ```
@@ -392,18 +394,22 @@ Za pomocą pętli wypisz wszystkie znaki char i odpowiadające im wartośći ca�
 ...
 ```
 
-Zadanie 2 task2.exe
+Zadanie 2. [task2.exe]
+
 Napisz funkcję radianToDegree() oraz degreeToRadian() zamieniającą radiany na stopnie oraz stopnie na radiany. Funkcja powinna zwracać typ double.
 
-Zadanie 3 task3.exe
+Zadanie 3. [task3.exe]
+
 Zadeklaruj zmienną string przechowującą łańcuch znaków o długości 200 znaków. Wartość zmiennej podaje użytkownik. Wypisz informację o ilości znaków w zmiennej z wykorzystaniem funkcji biblioteki standardowej bez korzystania z biblioteki standardowej.
 
-Zadanie 4 task4.exe
+Zadanie 4. [task4.exe]
+
 Napisz funkcję countwords() która wypisze ilość słów w łańcuchu znaków wedle zadanego separatora.
 
 *Napisz funkcję countcharacters() która wypisze informacje na temat ile w podanym jako parametr łańcuchu znaków znajduje się znaków specjalnych, cyfr, liter.
 
-Zadanie 5 task5.exe
+Zadanie 5. [task5.exe]
+
 Napisz funkcję comparestr() która w procentach określi podobieństwo dwóch łańcuchów znaków (takie same znaki na tej samej pozycji oznaczają podobieństwo).
 
 Przetestuj funkcję na następujących danych:
@@ -413,24 +419,27 @@ char str1[100] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 char str2[50] = "      ipsum dolor sit amet";
 ```
 
-Zadanie 6 task6.exe
+Zadanie 6. [task6.exe]
+
 Przetestuj działanie funkcji kopiującej łańcuch znaków z biblioteki standardowej. Następnie bez korzystania z bibliotek standardowych napisz funkcję cpystr() która kopiuje zawartość łańcucha znaków do innej zmiennej.
 
-Zadanie 7 task7.exe
+Zadanie 7. [task7.exe]
+
 Przetestuj działanie funkcji łączącej dwa łańcuchy znaków. Napisz własną funkcję catstr łączącą dwa łańcuchy znaków.
 
 Jeśli użytkownik będzie próbował połączyć dwa łańcuchy znaków tak że wykroczą one poza zakres zdefiniowanej tablicy program powinien wypisać komunikat a następnie zakończyć działanie korzystając z funkcji exit(EXIT_FAILURE) będącej częścią pakietu <stdlib.h>.
 
 Przetestuj działanie funkcji. Napisz odpowiednie komentarze objaśniające co testuje dany przypadek.
 
-Zadanie 8 task8.exe
+Zadanie 8. [task8.exe]
+
 Napisz funkcję findandreplace() która w podanym jako parametr łańcuchu znaków szuka słowa podanego jako inny parametr a nastepnie zamienia na słowo podane jako kolejny parametr funkcji. Funkcja zwraca liczbę zmienionych słów.
 
 np.
 findandreplace("aaa ccc bbbcccdddwww ccc", "ccc", "aaa")
 zamieni "aaa ccc bbbcccdddwww ccc" na "aaa aaa bbbcccdddwww aaa" i zwróci wartość 2.
 
-Zadanie 9 task9.exe
+Zadanie 9. [task9.exe]
 Napisz program który wypisze wszystkie kombinacje z powtórzeniami 3 cyfrowe liczb 1, 2, 3, 4.
 
 *Napisz funkcję która wypisze wszystkie kombinacje z powtórzeniami złożone z liczb zadanych przez użytkownika oraz zadanej przez użytkownika długości.
