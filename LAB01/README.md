@@ -15,11 +15,11 @@
 - logiczne**
 - dostępu**
 
-Zadania:
+## Zadania:
 
 Utwórz folder Lab01 na pulpicie, następnie otwórz folder w Visual Studio Code.
 
-Zadanie 1 - I/O i zmienne
+### **Zadanie 1 - I/O i zmienne**
 Deklaracja zmiennej wygląda następująco `[typ zmiennej] [nazwa zmiennej]; np.:
 
 ```
@@ -97,7 +97,7 @@ a następnie wypisuje w standardowym wyjściu te informacje.
 
 Przypisz zmiennym nowe wartości będące danymi kolegów po twojej lewej i prawej stronie i wypisz te wartości. (Program powinien wypisywać informacje o 3 osobach)
 
-Zadanie 2 - Operatory
+### **Zadanie 2 - Operatory**
 
 Utwórz plik operators.c a następnie wykonaj poniższe polecenia.
 Operatory arytmrtyczne:
@@ -159,11 +159,11 @@ printf("a == b - %i",a==b)
 ```
 Przetestuj działanie powyższych operatorów. Wyniki wypisz w standardowym wyjściu.
 
-Zadanie 3 - I/O
+### **Zadanie 3 - I/O**
 
 Zapoznaj się z dokumentacją funkcji scanf() a następnie utwórz program który zapyta użytkownika o wartość liczy a, następnie wartość liczby b po czym wypisze sumę tych dwóch liczb.
 
-Zadanie 4 - Instrukcje warunkowe
+### **Zadanie 4 - Instrukcje warunkowe**
 
 Zapoznaj się z dokumentacją instrukcji if oraz switch.
 ```
@@ -200,7 +200,7 @@ Napisz program który prosi użytkownika o wpisanie liczby a nastepnie sprawdza 
 
 Napisz program który prosi użytkownika o dwie wartości liczbowe oraz jedną znakową + - * lub /. Używając instrukcji switch wykonaj obliczenia w zależności od wyboru użytkownika.
 
-Zadanie 5
+### **Zadanie 5**
 
 utwórz plik arguments.c a w nim umieść poniższy kod:
 ```
@@ -217,5 +217,5 @@ Skompiluj kod do pliku uruchomieniowego arguments.exe. Uruchom kod poleceniem ar
 
 Przetestuj działanie kodu uruchamiając program z róznymi argumentami np. arguments.exe 1 2 3 4(W jaki sposób odczytać wartość "4" z tego polecenia?), w komentarzu napisz co przechowuje zmienna argc oraz argv.
 
-Zadanie 6
+### **Zadanie 6**
 Napisz program delta.exe przyjmujący parametry a b c który wypisze w standardowym wyjściu wartość delty.
