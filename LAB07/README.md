@@ -1,10 +1,12 @@
-lab07
+# **Lab07 - Zapis i odczyt plików**
 
-Pytania
-Jak otworzyć plik w trybie zapisu, jak w trybie odczytu, jak w trybie dodawania nowej treści?
-W jaki sposób sprawdzić rozmiar pliku a w jaki ilość znaków w pliku?
-Czym jest kursor?
-Przykłady
+### **Pytania:**
+1. Jak otworzyć plik w trybie zapisu, jak w trybie odczytu, jak w trybie dodawania nowej treści?
+2. W jaki sposób sprawdzić rozmiar pliku a w jaki ilość znaków w pliku?
+3. Czym jest kursor?
+
+### **Przykłady:**
+
 https://pl.wikibooks.org/wiki/C/fopen https://pl.wikibooks.org/wiki/C/fclose
 
 https://pl.wikibooks.org/wiki/C/fputs https://pl.wikibooks.org/wiki/C/perror https://pl.wikibooks.org/wiki/C/puts
@@ -16,6 +18,7 @@ https://pl.wikibooks.org/wiki/C/scanf
 Otwarcie pliku i odczytanie różnych typów danych różnymi metodami
 zawartość pliku file1.txt 321 Programowanie 3.14 4.52
 
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -78,8 +81,9 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
-
+```
 Zapis do pliku tekstowego
+```
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -107,12 +111,18 @@ int main(int argc, char const *argv[])
     /* code */
     return 0;
 }
-Zadania
-Zadanie 1
+```
+
+## **Zadania:**
+
+### **Zadanie 1**
+
 Napisz program task1 który utworzy plik file.txt zawierający napis "1 Bike 432".
 
 1 Bike 432
-Zadanie 2
+
+### **Zadanie 2**
+
 Napisz program task2 który do pliku file.txt doda kolejną linijkę "2 Monitor 200".
 
 1 Bike 432
@@ -125,7 +135,8 @@ Przy kolejnych uruchomieniach programu plik file.txt powinien dopisywać kolejne
 2 Monitor 200
 Zmodyfikuj program aby sprawdzał czy linijka z numerem "2." istnije. Jeśli tak nie modyfikuj pliku, jeśli nie istnieje nadpisz plik.
 
-Zadanie 3
+### **Zadanie 3**
+
 Napisz program task3 który wypisze zawartość pliku file.txt. Następnie poprosi o podanie nazwy przedmiotu oraz ceny przez użytkownika, dopisze je do pliku po czym wypisze jego nową zawartość i zakońćzy działanie. Przy kolejnych uruchomieniach program powienien sam generować kolejne numerki przedmiotów.
 
 Zawartosc pliku:
@@ -140,15 +151,19 @@ Zawartosc pliku:
 1 Bike 432
 2 Monitor 200
 3 Helmet 376
-Zadanie 4
+
+### **Zadanie 4**
+
 Napisz program file_stat który wypisze liczbę znaków w pliku file.txt. Rozbuduj program aby wyświetlał liczbę linii w pliku. Rozbuduj program tak aby wypisywał rozmiar pliku wyrażony w kB lub Bajtach.
 
-Zadanie 5
+### **Zadanie 5**
+
 Utwórz pliki utils.c. W pliku utwórz funkcję filetoarray(char *path) która odczyta dane z pliku którego nazwa przekazana jest przez parametr path. W funkcji utwórz tablicę zdolną przechować cały plik (można wykorzystać funkcję malloc()). Następnie wypełnij tablicę danymi z pliku. Funkcja powinna zwrócić wskaźnik do wypełnionej tablicy.
 
 Przetestuj działanie funkcji na pliku file.txt i wypisz rezultat w konsoli (zawartość tablicy zwróconej przez funkcję filetoarray()).
 
-Zadanie 6
+### **Zadanie 6**
+
 plik csv (comma-separated values) jest to plik gdzie wartości są oddzielone przecinkiem. Pobierz plik iris.data z archiwum uci https://archive.ics.uci.edu/ml/machine-learning-databases/iris/ Informacje zawarte w pliku:
 
 kolumna 1 - długość kielicha w cm
@@ -163,7 +178,8 @@ Napisz program podziel który odczyta dane z pliku iris.data a nastepnie odczyta
 
 Resztę danych zapisz do pliku test.csv (pozostałe 20% z każdego gatunku).
 
-Zadanie 7
+### **Zadanie 7**
+
 Utwórz program test.c a w nim:
 
 Utwórz strukturę iris_row która będzie przechowywać dane z jednego wiersza iris.data.
@@ -171,5 +187,7 @@ Utwórz funkcję load_data() która przyjmuje wskaźnik na tablicę zawierajacą
 Funkcja wczytuja dane z pliku przekazanego w parametrze path. Dane z wierszy są zapisywane w strukturze iris_row
 Struktury są przechowywane w tablicy.
 Funkcja zwraca wskaźnik do tablicy zawierającej dane.
-Zadanie 8
+
+### **Zadanie 8**
+
 Napisz program kalkulator który będzie posiadał opcje dodawania, odejmowania, mnożenia, dzielenia, potęgowania i obliczania pierwiastka stopnia drugiego z liczby. Kalkulator powinien zapisywać historię wykonywanych działań do pliku log.txt.
