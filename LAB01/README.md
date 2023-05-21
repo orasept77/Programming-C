@@ -1,6 +1,6 @@
-Lab 01 - Zmienne, operatory, instrukcje warunkowe. IN/OUT
+# **Lab 01 - Zmienne, operatory, instrukcje warunkowe. IN/OUT**
 
-Pytania
+### **Pytania:**
 1. Jak działa dyrektywa #include?
 2. Czym jest zmienna? Jak deklarujemy zmienne?
 3. Typy zmiennych w C
