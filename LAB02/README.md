@@ -1,6 +1,6 @@
-Lab 03 - Pętle o tablice
+# **Lab 03 - Pętle o tablice**
 
-Pytania:
+### **Pytania:**
 1. W jaki sposób definiujemy tablice?
 2. Jak odczytać wartość z tablicy?
 3. Jak zmodyfikować wartość tablicy?
@@ -8,7 +8,7 @@ Pytania:
 5. Jak zbudowana jest pętla for?
 6. Jak zbudowana jest pętla while/do while?
 
-Przykłady:
+### **Przykłady:**
 Defioniowanie tablic jedno i wielowymiarowych:
 ```
 #include <stdlib.h>
@@ -121,10 +121,10 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Zadania:
+## **Zadania:**
 
 
-Zadanie 1. [task1.exe]
+### **Zadanie 1. [task1.exe]**
 
 Utwórz program który przechowa dane następującej tabeli:
 ```
@@ -135,7 +135,7 @@ Utwórz program który przechowa dane następującej tabeli:
 ```
 Wypisz w konsoli zaznaczoną wartość używając indeksów. Zmodyfikuj program tak by użytkownik mógł wskazać który element tablicy chce odczytać.
 
-Zadanie 2. [forexcercise.exe]
+### **Zadanie 2. [forexcercise.exe]**
 
 Utwórz program który wypisuje liczby od 0 do 20.
 
@@ -147,7 +147,7 @@ Utwórz program który wypisuje począwszy od 1 co 3 kolejną liczbę do wartoś
 
 Utwórz program który wypisuje 100 liczb podzielnych przez 5.
 
-Zadanie 3. [printtable.exe]
+### **Zadanie 3. [printtable.exe]**
 
 Utwórz program który wypisze w konsoli tablicę z poprzedniego zadania wykorzystując pętlę w formacie:
 ```
@@ -157,19 +157,19 @@ Utwórz program który wypisze w konsoli tablicę z poprzedniego zadania wykorzy
 | 3.5 | 32.6 |
 ```
 
-Zadanie 4. [task4.exe]
+### **Zadanie 4. [task4.exe]**
 
 Używając instrukcji break i continue napisz program który wypisze liczby od 0 do zadanej przez użytkownika wartości z pominięciem liczb podzielnych przez 3.
 
-Zadanie 5. [otherloops.exe]
+### **Zadanie 5. [otherloops.exe]**
 
 Spróbuj wykonać poprzednie zadanie za pomocą innej pętli(jeśli używałeś for za pomocą pętli while lub do-while).
 
-Zadanie 6. [primenumbers.exe]
+### **Zadanie 6. [primenumbers.exe]**
 
 Utwórz program który wypisuje kolejne liczby pierwsze.*
 
-Zadanie 7. [twodimensionarray.exe]
+### **Zadanie 7. [twodimensionarray.exe]**
 
 Napisz program który przechowuje w tablicy 3x3 wartości podane przez użytkownika.
 
