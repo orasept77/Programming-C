@@ -1,18 +1,20 @@
-lab06
+# *Lab06 - Gra w kółko i krzyżyk**
 
 Gra w kółko i krzyżyk https://drive.google.com/drive/folders/1-ceXITf1pQ7zAF0N5p8NqOXGnKtbVl4-?usp=sharing
 
-Pytania
-Zadania
+### **Zadania**
+
 TicTacToe.exe
 Aktualny stan gry będzie przechowywany w 2 wymiarowej tablicy znaków. Stan powinien być zmienną globalną aby każda funkcja miała do niego dostęp. Ponadto przydatna będzie informacja o wielkośći planszy która może także być przechowywana w zmiennej globalnej.
-
+```
 char tab[3][3] = { {' ', ' ', ' '},
                    {' ', ' ', ' '},
                    {' ', ' ', ' '} }
+```
+
 Krok 1
 Napisz funkcję renderboard() która w konsoli wypisze obecny stan gry w następującej postaci:
-
+```
   A B C
 1   
 2   
@@ -21,9 +23,12 @@ Napisz funkcję renderboard() która w konsoli wypisze obecny stan gry w następ
 1 X   O
 2 X O
 3   X
+```
+
 Funkcja powinna być w stanie wyrenderować planszę o rozmiarach od 3x3 do 26x26 pól. Przetestuj działanie funkcji. na tablicach:
 
-Tablice testowe
+Tablice testowe:
+```
 int const TAB_SIZE = 4;
 char board[TAB_SIZE][TAB_SIZE] = { {' ', ' ', ' ', ' '},
                                   {' ', ' ', ' ', ' '},
@@ -44,7 +49,9 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
-Podpowiedź
+```
+Podpowiedź:
+```
 // Typ char przechowuje liczby od 0 do 255 które w funkcji printf() są dekodowane na znaki widoczne w konsoli.
 // A - 65
 // Z - 90
@@ -53,19 +60,22 @@ Podpowiedź
 for(char i = 65; i<91; i++){
     printf("%c ", i);
 }
+```
 Nagłowki kolumn można wypisać przed wypisywaniem wartości planszy.
 
 Nagłówki wierszy można wypisać przed iteracją po drugim wymiarze tablicy.
 
 Rozwiązanie:
 Tablicę można zainicjalizować jako zmienną globalną podobnie rozmiar tablicy:
-
+```
 int const TAB_SIZE = 3;
 char board[3][3] = { {'X', 'O', 'O'},
                     {'X', 'X', 'O'},
                     {'O', ' ', 'X'} };
-Rozmiar tablicy musi być nam znany aby sprawnie iterować po kolejnych wartościach. Funkcja renderboard może wykorzystywać globalną informacje o rozmiarze tablicy:
+```
 
+Rozmiar tablicy musi być nam znany aby sprawnie iterować po kolejnych wartościach. Funkcja renderboard może wykorzystywać globalną informacje o rozmiarze tablicy:
+```
 renderboard(){
     for(int i= 0; i< TAB_SIZE; i++){
         for(int j= 0; j< TAB_SIZE; j++){
@@ -73,6 +83,7 @@ renderboard(){
         }
     }
 }
+```
 Krok 2
 Napisz funkcję makeMove() która przyjmuje symbol danego gracza na planszy i zwraca następujące kody:
 
@@ -80,13 +91,14 @@ Napisz funkcję makeMove() która przyjmuje symbol danego gracza na planszy i zw
 1 - jeśli wykraczamy poza obszar planszy
 2 - jeśli chcemy zająć pole innego gracza
 3 - inne błędy W ciele funkcji zaimplementuj zapytania do użytkownika o wybranie pola które chce zająć.
-Podpowiedź
+Podpowiedź:
 Za pomocą instrukcji scanf() możemy odczytać kilka wartości jednocześnie.
-
+```
 char col;
 int row;
 printf("Podaj wartośc col i row np.  ", player);
 scanf(" %c %i", &col, &row);
+```
 Po odczytaniu wartości wystarczy zamienic je na indeksy (numerowane od 0) i sprawdzić odpowiednie warunki.
 
 Krok 3
@@ -101,7 +113,8 @@ Zaimplementuj logikę gry w funkcji main.
 *AdvancedTicTacToe.exe
 Zmodyfikuj grę TicTacToe tak aby użytkownik mógł zdefiniować wielkość planszy, liczbę i symbole graczy.
 
-Podpowiedź
+Podpowiedź:
+```
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -206,6 +219,8 @@ int main(int argc, char const *argv[])
         }
         
     }
+```
+
 Task3.exe
 Napisz program który będzie wypisywał w konsoli spiralę o zadanej wielkości - każde kolejne ramię np.
 
