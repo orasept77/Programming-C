@@ -1,14 +1,15 @@
-lab08
-unie, dynamiczna alokacja pamięci.
+# **Lab08 - Unie, dynamiczna alokacja pamięci**
 
-Pytania
-Czym jest enum?
-Czym różni się struktura od uni?
-W jaki sposób/ do czego możemy wykorzystać dynamiczne alokowanie pamięci?
-Przykłady
+## **Pytania:**
+1. Czym jest enum?
+2. Czym różni się struktura od uni?
+3. W jaki sposób/ do czego możemy wykorzystać dynamiczne alokowanie pamięci?
+
+### **Przykłady:**
+
 Unie
 Unie definiujemy za pomocą słówka kluczowego union:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -34,8 +35,11 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+```
+
 Unie mają rozmiar równy największemu z przechowywanych typów. W pamięci wartości pól uni będą przechowywane we wspólnym bloku pamięci podczas gdy struktury będą miały zalokowane miejsca w pamieci dla poszczeólnych pól.
 
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -63,8 +67,9 @@ int main(int argc, char const *argv[])
     printf("ilosc bajtow ktore zajmuje struktura = %i (%i+%i+padding+%i)\n", sizeof(mystruct), sizeof(char), sizeof(int), sizeof(double));
     return 0;
 }
+```
 Za pomocą słówna kluczowego typedef można zadeklarować krótką nazwę struktury lub uni.
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -84,9 +89,10 @@ int main(int argc, char const *argv[])
     x1.a = 'a';
     return 0;
 }
+```
 Enum
 Typ wyniliczeniowy jest to struktura która może przyjmować pewne z góry ustalone wartości. Nazwy tych wartości zazwyczaj wskazują jakiś stan aplikacji lub nazwę obiektu która pozwala w czytelny sposób określic co dany kawąłek kodu robi. Pod daną nazwą kryje się liczba. Np. definicje kolorów w instrukcji switch czy menu.
-
+```
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -120,9 +126,10 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+```
 malloc i calloc
 Funkcje malloc() i calloc() rezerwują w pamięci określoną ilość miejsca. Mijesce jest zwalniane po użyciu funkcji free()
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -175,23 +182,32 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
-Zadania
+```
+
+## **Zadania:**
+
 Chcemy utworzyć tablicę która przyjmuje wartości różnego typu. Następnie funkcję która będzie wypisywała zawartość tablicy.
 
-Zadanie 1
+### **Zadanie 1**
+
 Utwórz typ wyliczeniowy var_type zawierający wartości INT, FLOAT, CHAR.
 
-Zadanie 2
+### **Zadanie 2**
+
 Utwórz struktórę var która będzie przechowywać typ zmiennej. Oraz wartość zmiennej. Typ zmiennej jest typem wyliczeniowym natomiast na przehcoywanie wartoścu utwórz unie o typach takich jak w poprzednim zadaniu.
 
-Zadanie 3
+### **Zadanie 3**
+
 Utwórz funckję setInt() setFloat() setChar() które przyjmują dwa arumenty, wskaźnik do zmiennej var i wartość zmiennej. Funkcje ustawiają odpowienio wartości zmiennej var.
 
-Zadanie 4
+### **Zadanie 4**
+
 Utwórz tablicę zawierającą 10 wartości typu var. Wypełnij tablicę wartości najpierw liczbami od 1 do 10. Wypełnij tablicę wartościami A, B, C, D ...
 
-Zadanie 5
+### **Zadanie 5**
+
 Utwóz funkcję varToString() która zwraca wskaźnik do łańcucha znaków. Np. jeśli var przechowuje wartość 100 to varToString() pwoinna zwrócić wskaźnik na tablicę przechowującą napis "100". Wykorzystaj funkcję sprintf()
 
-Zadanie 6
+### **Zadanie 6**
+
 Wypisz zawartość tablic wykorzystując stworzone funkcje.
