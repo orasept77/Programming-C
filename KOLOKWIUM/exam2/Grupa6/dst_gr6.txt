@@ -1,0 +1,20 @@
+Czy chcesz wpisac znak? 1
+podaj znak:  a
+Czy chcesz wpisac znak? 1
+podaj znak:  b
+Czy chcesz wpisac znak? 1
+podaj znak:  a
+Czy chcesz wpisac znak? 0
+[a, b, a]true
+Czy chcesz wpisac znak? 1
+podaj znak:  k
+Czy chcesz wpisac znak? 1
+podaj znak:  a
+Czy chcesz wpisac znak? 1
+podaj znak:  j
+Czy chcesz wpisac znak? 1
+podaj znak:  a
+Czy chcesz wpisac znak? 1
+podaj znak:  k
+Czy chcesz wpisac znak? 0
+[k, a, j, a, k]true
