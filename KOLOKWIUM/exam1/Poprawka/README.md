@@ -137,37 +137,6 @@ Utwórz wskaźnik `endwsk` na ostatni element napisu czyli ".".
 Wykorzystując zmienną wskaźnikową zmień "." na "!".
 Wypisz zawartość zmiennej `variable1`.
 
-## Zadanie 10 (`task10.c`, `solution10.exe`)
-
-Utworzyć strukturę `Cuboid` która będzie przechowywać długości boków prostopałościanu `a`,`b`,`h` jako wartości zmiennoprzecinkowe, ponadto objętość, pole, długość przekątnej prostopałościanu jako `V`, `Pc`, `D`.
-
-## Zadanie 11 (`task10.c`, `solution10.exe`) - Oznacz rozwiązanie komentarzem `// zadanie 11`
-
-Utworzyć tablicę `task11_var` przechowującą 100 struktur `Cuboid`. Wypełnij tablicę strukturami z losowymi wartościami a,b,h w przedziale od 0 do 10.
-
-## Zadanie 12 (`task10.c`, `solution10.exe`) - Oznacz rozwiązanie komentarzem `// zadanie 12`
-
-Napisz funkcję `calculate()` przyjmującą jako parametr strukturę `Cuboid`. Funkcja oblicza na podstawie przekazanej struktury objętość, pole całkowite, długość przekątnej i przypisuje do pól struktury. Wywołaj funkcję `calculate()` dla każdego elementu z talicy z zadania 11.
-
-Utwórz funckję `showCuboid()` przyjmującą jako parametr strukturę `Cuboid`. Funckja wypisuje wartości wszystkich pól struktury:
-```terminal
-Cuboid{a=1.000, b=1.000, h=1.000, V=1.000, Pc=6.000, D=1.732}
-```
-
-Wypisz zawartość tablicy z obliczonymi wartościami pola, objętości i przekątnej z użyciem utworzonej funkcji `showCuboid()`.
-
-$$
-V = abh
-$$
-
-$$
-P_c = 2ab + 2ah + 2bh
-$$
-
-$$
-D = \sqrt{a^{2}+b^{2}+h^{2}}
-$$
-
 # Odsyłanie rozwiązań:
 
 Pliki z rozwiązaniem należy spakować do archiwum .zip nazwanym pierwszymi literami imienia i nazwiska + numer albumu. np. `jk123456.zip` jeśli nazywasz się Jan Kowalski i posiadasz numer albumu 123456.
