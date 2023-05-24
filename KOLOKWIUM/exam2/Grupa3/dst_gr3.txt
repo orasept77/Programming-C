@@ -1,0 +1,12 @@
+['a', '1', 'g', 'c', 'c']
+duplikuj 2 element 2 razy
+['a', '1', 'g', 'g', 'g', 'c', 'c']
+['b', '2', 't', 's']
+duplikuj 1 element 4 razy
+['b', '2', '2', '2', '2', '2', 't', 's']
+['b', 's']
+duplikuj 1 element 10 razy
+['b', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']
+['d', '8', 'h', '1', '1']
+duplikuj 1 element 5 razy
+['d', '8', '8', '8', '8', '8', '8', 'h', '1', '1']
