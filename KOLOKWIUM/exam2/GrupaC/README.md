@@ -1,276 +1,232 @@
-# C
+# Kolokwium 2
 
-Wybrać jedno z poniższych zadań.
+Wybrać jedno z poniższych zadań. Pliki z rozwiązaniami nazwać w zależności od wybranego zadania, odpowiednio:
+- `zad1.c` i `zad1.exe` dla oceny 5
+- `zad2.c` i `zad2.exe`. dla oceny 4
+- `zad3.c` i `zad3.exe` dla oceny 3
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## 3.0
+## Bardzo dobry
 
-Napisz funkcję `genPassword()` która przyjmuje 3 parametry: ilośc liter w haśle, ilość cyfr w haśle, ilość znaków specjalnych w haśle.
+### EK_3
 
-<details>
-<summary>
-Tablica ASCII
-</summary>
-ASCII code 33 = ! <br>
-ASCII code 34 = " <br>
-ASCII code 35 = # <br>
-ASCII code 36 = $ <br>
-ASCII code 37 = % <br>
-ASCII code 38 = & <br>
-ASCII code 39 = ' <br>
-ASCII code 40 = ( <br>
-ASCII code 41 = ) <br>
-ASCII code 42 = * <br>
-ASCII code 43 = + <br>
-ASCII code 44 = , <br>
-ASCII code 45 = - <br>
-ASCII code 46 = . <br>
-ASCII code 47 = / <br>
-ASCII code 48 = 0 <br>
-ASCII code 49 = 1 <br>
-ASCII code 50 = 2 <br>
-ASCII code 51 = 3 <br>
-ASCII code 52 = 4 <br>
-ASCII code 53 = 5 <br>
-ASCII code 54 = 6 <br>
-ASCII code 55 = 7 <br>
-ASCII code 56 = 8 <br>
-ASCII code 57 = 9 <br>
-ASCII code 58 = : <br>
-ASCII code 59 = ; <br>
-ASCII code 60 = < <br>
-ASCII code 61 = = <br>
-ASCII code 62 = > <br>
-ASCII code 63 = ? <br>
-ASCII code 64 = @ <br>
-ASCII code 65 = A <br>
-ASCII code 66 = B <br>
-ASCII code 67 = C <br>
-ASCII code 68 = D <br>
-ASCII code 69 = E <br>
-ASCII code 70 = F <br>
-ASCII code 71 = G <br>
-ASCII code 72 = H <br>
-ASCII code 73 = I <br>
-ASCII code 74 = J <br>
-ASCII code 75 = K <br>
-ASCII code 76 = L <br>
-ASCII code 77 = M <br>
-ASCII code 78 = N <br>
-ASCII code 79 = O <br>
-ASCII code 80 = P <br>
-ASCII code 81 = Q <br>
-ASCII code 82 = R <br>
-ASCII code 83 = S <br>
-ASCII code 84 = T <br>
-ASCII code 85 = U <br>
-ASCII code 86 = V <br>
-ASCII code 87 = W <br>
-ASCII code 88 = X <br>
-ASCII code 89 = Y <br>
-ASCII code 90 = Z <br>
-ASCII code 91 = [ <br>
-ASCII code 92 = \ <br>
-ASCII code 93 = ] <br>
-ASCII code 94 = ^ <br>
-ASCII code 95 = _ <br>
-ASCII code 96 = ` <br>
-ASCII code 97 = a <br>
-ASCII code 98 = b <br>
-ASCII code 99 = c <br>
-ASCII code 100 = d <br>
-ASCII code 101 = e <br>
-ASCII code 102 = f <br>
-ASCII code 103 = g <br>
-ASCII code 104 = h <br>
-ASCII code 105 = i <br>
-ASCII code 106 = j <br>
-ASCII code 107 = k <br>
-ASCII code 108 = l <br>
-ASCII code 109 = m <br>
-ASCII code 110 = n <br>
-ASCII code 111 = o <br>
-ASCII code 112 = p <br>
-ASCII code 113 = q <br>
-ASCII code 114 = r <br>
-ASCII code 115 = s <br>
-ASCII code 116 = t <br>
-ASCII code 117 = u <br>
-ASCII code 118 = v <br>
-ASCII code 119 = w <br>
-ASCII code 120 = x <br>
-ASCII code 121 = y <br>
-ASCII code 122 = z <br>
-ASCII code 123 = { <br>
-ASCII code 124 = | <br>
-ASCII code 125 = } <br>
-ASCII code 126 = ~ <br>
-</details>
+Utwórz strukturę `Array` przechowującą macierz o dowolnym rozmiarze. Struktura powinna zawierać dane niezbędne do iteracji po komórkach macierzy.
 
-Funkcja wypisuje w konsoli losowo wygenerowane hasło zawierające określoną ilość znaków. np. 3 litery 2 cyfry 1 znak specjalny
-```
-A4?yH0
-```
-Pozycja liter, cyfr oraz znaków specjalnych jest losowa.
+Utwórz funkcję `initArray()` która zwraca instancję struktury `Array`. Funkcja tworzy nową instancję struktury `Array` i przechowuje macierz o określonej liczbie wierszy i kolumn przekazanych jako parametry funkcji. Miejsce w pamięci na przechowywanie macierzy jest alokowane dynamicznie.
 
-W metodzie `main()` zaimplementuj menu:
+Utwórz funkcję `detArray()` przyjmującą instancje struktury `Array`. Funkcja powinna zwracać liczbę obliczoną w następujący sposób:
+
+Przekształcenie macierzy do uzyskania postaci górnej trójkątnej według wzoru:
+$$
+A_{jk} = A_{jk} - \frac{A_{ji}}{A_{ii}} * A_{ik}
+$$
+- jeśli w podanym wzorze A[i,i] == 0 (dzielenie przez 0) wypisz stosowny komunikat i przerwij obliczenia zwracając macierz wypełnioną jedną wartością 0.
+
+Poszczególne indeksy zmieniają się według sekwencji:
+1. i = 1,...,n-1
+2. j = i+1,...,n
+3. k = i+1,...,n
+
+Po przekształceniu możliwe jest obliczenie wartości mnożąc elementy na przekątnej. Poniżej liczbą 1 zaznaczono elementy z których trzeba policzyć iloczyn w przypadku macierzy 4x4.
+
+```terminal
+[1 0 0 0]
+[0 1 0 0]
+[0 0 1 0]
+[0 0 0 1]
 ```
-1. Generuj nowe haslo.
-2. Wyjście z programu.
+
+Funkcja powinna zwracać odpowiednie komunikaty jeśli macierz jest inna niż kwadratowa.
+
+
+Utwórz funkcję `printArray()` która przyjmuje jako parametr strukturę `Array`.
+Funkcja wypisuje zawartość tablicy z przekazanej struktury w następującym formacie(kolumny podpisane kolejnymi literami alfabetu):
+
+```terminal
+A           B           C
+2.00        2.00        2.00
+2.00        2.00        2.00
+12.00       12.00       12.00
 ```
-Program powinien działać do momentu wybrania opcji wyjście z programu.
-Po wybraniu opcji Generuj nowe haslo użytkownik pytany jest o ilość liter w haśle, ilość cyfr w haśle oraz ilosć znaków specjalnych. Po wprowadzeniu danych hasło jest wyświetlane w konsoli. Przykładowa sesja:
+
+W metodzie `main()`:
+- Za pomocą funkcji `initArray()` utwórz zmienne przechowujące macierze o wymiarach 3x3, 3x3 i 2x4
+- Wypełnij macierze następującymi danymi:
+```
+A           B           C
+1.00        2.00        3.00
+4.00        5.00        5.00
+1.00        2.00        4.00
+```
+
+```
+A           B           C
+1.00        2.00        3.00
+1.00        2.00        2.00
+1.00        2.00        3.00
+```
+
+```
+A           B           C         D
+1.00        2.00        3.00      5.00
+4.00        5.00        5.00      1.00
+```
+Sprawdź działanie funkcji detArray() na powyższych przykładach.
+
+### EK_4
+
+Zmodyfikuj program w ten sposób aby wyniki działania programu wyświetlone w konsoli zostały również zapisane w pliku wyniki.txt.
+
+```
+A           B           C
+1.00        2.00        3.00
+4.00        5.00        5.00
+1.00        2.00        4.00
+det = -3.00
+
+A           B           C
+1.00        2.00        3.00
+1.00        2.00        2.00
+1.00        2.00        3.00
+det = 0.00
+
+A           B           C         D
+1.00        2.00        3.00      5.00
+4.00        5.00        5.00      1.00
+Obliczenie wyznacznika jest mozliwe dla macierzy kwadratowej
+det = 0.00
 
 ```
 
-1. Generuj nowe haslo.
-2. Wyjście z programu.
-Wybierz opcje: 1
-Ile liter: 1
-Ile cyfr: 1
-Ile znakow specjalnych: 1
-z!4
 
-1. Generuj nowe haslo.
-2. Wyjście z programu.
-Wybierz opcje: 1
-Ile liter: 2
-Ile cyfr: 0
-Ile znakow specjalnych: 2
-*a#Z
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-1. Generuj nowe haslo.
-2. Wyjście z programu.
-Wybierz opcje: 2
+## Dobry
 
-Zakońćzenie działania programu.
-```
+### EK_3
+Utwórz funkcję `allocate_2d_array()` która dynamicznie alokuje miejsce w pamięci na macierz liczb zmiennoprzecinkowych o rozmiarze przekazanym jako parametry funkcji. Funkcja zwraca wskaźnik na tę macierz.
 
-## 4.0
-Utwórz program `db_macierzodleglosci`.
-
-Napisz funkcję `allocate_2d_array()` która dynamicznie alokuje miejsce w pamięci na macierz liczb zmiennoprzecinkowych o rozmiarze przekazanym jako parametry funkcji. Funkcja zwraca wskaźnik na tę macierz.
-
-Napisz funkcję `free_2d_array()` która zwalnia miejsce w pamięci macierzy przekazanej jako parametr funkcji.
+Utwórz funkcję `free_2d_array()` która zwalnia miejsce w pamięci macierzy przekazanej jako parametr funkcji.
 W komentarzu opisz za co odpowiadają parametry funkcji jeśli ich nazwa tego nie sugeruje.
 
-Napisz funkcję `print_matrix()` która wypisuje w konsoli zawartość macierzy w następującej postaci:
+Utwórz funkcję `print_matrix()` która wypisuje w konsoli zawartość macierzy w następującej postaci:
 
 ```terminal
-| 0.00      | 0.10      |
-| 1.00      | 4331.10   |
-| 2.00      | 42.10     |
+| 0.0000      | 0.1000    |
+| 1.0000      | 41.1005   |
+| 2.0000      | 42.1000   |
 ```
 
-Utwórz funkcję `euclidDistance()` która przyjmuje dwie tablice o dowolnej długości jako parametry funkcji. Funkcja oblicza odległość Euklidesową na podstawie wartości tablic według wzoru:
-
-$$
-d(p,q)=\sqrt{\sum_{i=1}^{n}\left(q_{i}-p_{i}\right)^2} 
-$$
-
-Utwórz funkcję `distnaceMatrix()` która oblicza odległości pomiędzy kolejnymi wierszami macierzy przekazanej jako parametr funkcji i wpisuje do nowej macierzy obliczone wartości. np. mając macierz:
+Utwórz  funkcję `sort_by_column()` która sortuje tablicę przekazaną jako argument funkcji rosnąco według wartości w wybranej kolumnie. Kolumnę według której ma odbyć się sortowanie powinna być przekazana jako arguemtn funkcji. np.
 
 ```
-| 0.00      | 0.00      |
-| 0.00      | 1.00      |
-| 0.00      | 2.00      |
+przed sotrowaniem
+| 1.0000    | 3.0000    | 5.0000    |
+| 3.0000    | 4.0000    | 3.0000    |
+| 4.0000    | 7.0000    | 1.0000    |
+| 3.0000    | 1.0000    | 3.0000    |
+
+po sortowaniu z wyborem 2 kolumny
+| 3.0000    | 1.0000    | 3.0000    |
+| 1.0000    | 3.0000    | 5.0000    |
+| 3.0000    | 4.0000    | 3.0000    |
+| 4.0000    | 7.0000    | 1.0000    |
+
+po sortowaniu z wyborem 1 kolumny
+| 1.0000    | 3.0000    | 5.0000    |
+| 3.0000    | 4.0000    | 3.0000    |
+| 3.0000    | 1.0000    | 3.0000    |
+| 4.0000    | 7.0000    | 1.0000    |
 ```
 
-wynikiem działania będzie macierz 3x3 gdzie w komórce [1,1] jest odległośc pomiędzy 1 a 1 wierszem,w komórce [1,2] odległość pomiędzy 1 a 2 wierszem, w komórce ...
-w komórce [3,3] odległośc pomiędzy 3 a 3 wierszem:
+Utwórz macierz za pomocą funkcji allocate_2d_array() a następnie wypełnij ją następującymi wartościami
+```
+| 1.0000    | 3.0000    | 5.0000    |
+| 3.0000    | 4.0000    | 3.0000    |
+| 4.0000    | 7.0000    | 1.0000    |
+| 3.0000    | 1.0000    | 3.0000    |
+```
+Przetestuj działanie funkcji sort_by_column() na następujących przypadkach:
+- Posortuj tablicę według pierwszej kolumny a następnie wypisz rezultat.
+- Posortuj tablicę według ostatniej kolumny a następnie wypisz rezultat.
+
+### EK_4
+
+Zmodyfikuj program tak aby wynik działania programu został zapisany do pliku wyniki.txt
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Dostateczny
+
+### EK_3
+Utwórz funkcję `palindrom()` która sprawdzi czy znaki przechowywane w tablicy są palindromem(słowo lub ciąg znaków, który czytany od przodu i od tyłu brzmi tak samo) a następnie zwróci wartość true jeśli są lub false jeśli nie są. Funkcja przyjmuje tablicę dowolnej długości i przy sprawdznaiu pomija puste znaki. np.
 
 ```
-| 0.00      | 1.00      | 2.00      |
-| 1.00      | 0.00      | 1.00      |
-| 2.00      | 1.00      | 0.00      |
+[a, b, a, 0\] true
+[a, b, b, a] true
+[a, b, c, a] false
 ```
 
-W metodzie main() utwórz następujące menu:
-
+Utwórz funkcję `print_palindrom()` która przyjmuje jako argument tablicę o dowolnym rozmiarze oraz wypisuje zawartość tablicy w poniższym formacie wraz z informacją czy znaki w tablicy tworzą palindrom czy nie.
 ```
-1. Wprowadz macierz
-2. Wyswietl macierz
-3. Macierz odleglosci
-4. Wyjscie
+[a, b, b, a] true
 ```
 
-Po wybraniu opcji 1 program pyta użytkownika o rozmiar macierzy, alokuje miejsce na tę macierz a następnie użytkownik wypełnia macierz danymi.
-
+Napisz program który odczytuje od użytkownika znaki z klawiatury a następnie sprawdza czy wpisane przez niego znaki są palindromem. Program powinien odczytywać znaki do momentu wybrania opcji zakończenia wpisywania znaków.
 ```
-Wybrano 1 - Wprowadz macierz.
-Wprowadz liczbe wierszy: 2
-Wprowadz luczbe kolumn: 2
-tab[1][1] = 1
-tab[1][2] = 3
-tab[2][1] = 3
-tab[2][2] = 2
-```
-
-Po wybraniu opcji 2 program wyświetla macierz za pomocą funkcji print_matrix()
-
-Po wybraniu opcji 3 program wyświetla macierz odległości macierzy przechowywanej aktualnie w pamięci.
-
-Program powinien działać aż do momentu wybrania opcji wyjście. Pamięć powinna być zwalniana w odpowiednim momencie.
-
-## 5.0
-
-Utwóz program `bdb_TicTacToe`
-
-1. Utwórz strukturę `Array` przechowującą dynamicznie alokowaną kwadratową macierz przechowującą znaki. Struktura powinna zawierać dane o wielkości macierzy.
-
-2. Utwórz funkcję `initArray()` która zwraca instancję struktury `Array`. Funkcja tworzy nową instancję struktury `Array` i przechowuje macierz o określonej **liczbie wierszy i kolumn przekazanych jako parametry funkcji**. Domyślnie macierz jest wypełniona wartościami `\0`.
-
-3. Utwórz funkcję `freeArray()` która przyjmuje jako parametr **wskaźnik do struktury Array**. Funkcja dealokuje miejsce przechowujące dynamicznie przydzielone miejsce na macierz. Jeśli wszystko przebiegnie pomyślnie **funkcja zwraca wartość true**.
-
-4. Utwórz funkcję `makeMove()` która przyjmuje jako parametr strukturę `Array` numer wiersza, numer kolumny oraz symbol gracza. Jeśli ruch jest poprawny(nie przekraczamy zakresu tablicy oraz pole jest wolne - zawiera symbol \0) funkcja wpisuje symbol w odpowiednie miejsce i zwraca 1. W przeciwnym wypadku funkcja zwraca -1. Jesli tablica jest cała zapełniona funkcja zwraca 2(remis)
-
-5. Utwórz funkcję `printArray()` która przyjmuje jako parametr strukturę `Array`.
-Funkcja wypisuje zawartość macierzy w następującym formacie:
-
-```terminal
-X O X X
-X X   X
-X     X
-      O
+Czy chcesz wpisac znak? 1
+podaj znak: a
+Czy chcesz wpisac znak? 1
+podaj znak: b
+Czy chcesz wpisac znak? 1
+podaj znak: a
+Czy chcesz wpisac znak? 0
+[a, b, a] true
 ```
 
-5. Utwórz funkcję `checkBoard()` przyjmującą instancje struktury `Array`. W ciele funkcji zaimplementuj sprawdzenie czy jeden z graczy wypełnił wiersz, kolumnę lub przekątną swoim symbolem. Jeśli tak funkcja zwraca ten symbol.
-
-6. W metodzie `main()`utwórz menu w którym użytkownik jest pytany o:
-- wielkość planszy
-- liczbę graczy, następnie każdy z graczy wybiera swój symbol.
-Gra toczy się do momentu jesli jeden z graczy zapełni wiersz, kolumnę,przekątną lub kończy remisem jeśli niemożliwe jest wykonanie ruchu.
-
-Przykładowa sesja:
+### EK_4
+Zmodyfikuj program tak aby wynik działania programu został zapisany do pliku wyniki.txt. Za każdym razem gdy uruchamiamy program historia jest dołączana na końcu pliku
 ```
-Podaj wielkosc planszy: 2
-Podaj ilosc graczy: 2
-Podaj symbol Gracz 1: X
-Podaj symbol Gracz 2: X
-Symbol zajęty, Podaj symbol Gracz 2: O
-===========================================
-   
-   
-===========================================
-Ruch gracza X
-Podaj numer wiersza i kolumny(np. 1 1): 1 1
-===========================================
-X  
-   
-===========================================
-Ruch gracza O
-Podaj numer wiersza i kolumny(np. 1 1): 2 1
-===========================================
-X  
-O  
-===========================================
-Ruch gracza X
-Podaj numer wiersza i kolumny(np. 1 1): 1 2
-===========================================
-X X 
-O  
-===========================================
-Wygrywa Gracz X!!!
-
-Koniec programu
+Czy chcesz wpisac znak? 1
+podaj znak: a
+Czy chcesz wpisac znak? 1
+podaj znak: b
+Czy chcesz wpisac znak? 1
+podaj znak: a
+Czy chcesz wpisac znak? 0
+[a, b, a] true
 ```
+
+
+<details>
+
+# Efekt EK_03:
+## DST: 
+Student potrafi poprawnie przygotować programy rzędu 20-50  linii kodu, rozwiązujące proste problemy,  wykorzystując  do  tego  celu  niektóre  z  poznanych  struktur  danych  oraz  konstrukcje programistyczne dostępne w języku C.
+
+## DB:  
+Student  potrafi  poprawnie  przygotować  programy  rzędu  20-50  linii  kodu,  rozwiązujące średniozaawansowane problemy, wykorzystując do tego celu wszystkie poznane struktury danych oraz konstrukcje programistyczne dostępne w języku C.
+
+## BDB:
+Student  potrafi  poprawnie  przygotować  programy  rzędu  50-100  linii  kodu  rozwiązujące średniozaawansowane problemy, wykorzystując do tego celu wszystkie poznane struktury danych oraz konstrukcje programistyczne dostępne w języku C.Efekt 
+
+# EK_04:
+## DST: 
+Student potrafi poprawnie przygotować programy rzędu 20-50 linii kodu, rozwiązujące proste problemy  wykorzystując  do  tego  celumożliwości  standardowych  bibliotek  programistycznych dostępnych w języku C używanych na zajęciach.
+
+## DB:  
+Student  potrafi  poprawnie  przygotować  programy  rzędu  20-50  linii  kodu,  rozwiązujące średniozaawansowane  problemy,  wykorzystując  możliwości  standardowychbibliotek programistycznych dostępnych w języku C używanych na zajęciach.
+## BDB:  
+Student  potrafi  poprawnie  przygotować  programy  rzędu  50-100  linii  kodu,  rozwiązujące średniozaawansowane  problemy,  wykorzystując  możliwości  standardowych  bibliotek programistycznych dostępnych w języku C, także takich, które student poznawał samodzielnie
+
+</details>
