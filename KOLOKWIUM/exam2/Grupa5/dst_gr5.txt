@@ -1,0 +1,11 @@
+['a', '1', 'g', 'c', 'c']
+duplikuj 2 element 2 razy
+['a', '1', 'g', 'g', 'g', 'c', 'c']
+['1', '2', '3', '4']
+duplikuj 1 element 2 razy
+['1', '2', '2', '2', '3', '4']
+['a', 'b', 'c', 'd', 'd', 'e']
+duplikuj 2 element 20 razy
+['a', 'b', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'd', 'd', 'e']
+['a', 'b', 'c', 'd', 'd', 'e']
+['a', 'b', 'c', 'd', 'd', 'e']
