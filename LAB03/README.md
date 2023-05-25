@@ -1,8 +1,12 @@
 # **Lab03 - Funkcje, wskaźniki, zakres zmiennych**
 
-### **Przykłady:**
 
-```
+## Pytania
+
+## Przykłady
+### [Funkcje](https://pl.wikibooks.org/wiki/C/Funkcje)
+
+```c
 #include <stdio.h>
 
 // przed nazwą funkcji podajemy typ jaki powinna zwrócić
@@ -18,8 +22,7 @@ void hello(){
     printf("Hello World!\n");
     // return; // Możliwe jest przerwanie działania funkcji za pomocą return bez wartości
 }
-```
-```
+
 int main(int argc, char const *argv[])
 {
     hello();
@@ -29,8 +32,9 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Funkcje z nieograniczoną liczbą argumentów.
-```
+### Funkcje z nieograniczoną liczbą argumentów.
+
+```c
 #include <stdio.h>
 #include <stdarg.h> // Wymagana jest biblioteka w której zadeklarowane są użyte funkcje va_start, va_end
 
@@ -43,9 +47,7 @@ int suma(int argc, ...){ // w argc przechowuje liczbę argumentów
     va_end(arg); // zakończenie odczytu
     return 1;
 }
-```
 
-```
 int main(int argc, char const *argv[])
 {
     suma(4, 1,2,3,5);
@@ -53,9 +55,10 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Wskaźniki
-Definiowanie zmiennych wskaźnikowych
-```
+
+### [Wskaźniki](https://pl.wikibooks.org/wiki/C/Wska%C5%BAniki)
+### Definiowanie zmiennych wskaźnikowych
+```c
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
@@ -84,19 +87,22 @@ int main(int argc, char const *argv[])
 ```
 
 :warning: Przy definiowaniu wskażników uważaj na opercję przypisania:
-```
+```c
 int a = 55;
 
 int *ptr_a = &a;
+```
+
+```c
 int a = 55;
 
 int *ptr_a;
 *ptr_a = &a; // w ten sposób zmienisz wartość pod danym adresem.
-Tablice
+```
+### Tablice
 Zmienne tablicowe wskazują pierwszy adres w tablicy.
-```
 
-```
+```c
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -111,9 +117,9 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+### Iteracja  tablicy za pomocą wskaźników
 
-Iteracja tablicy za pomocą wskaźników
-```
+```c
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -133,54 +139,54 @@ int main(int argc, char const *argv[])
 ```
 
 
-## **Zadania:**
+## Zadania
 
-### **Zadanie 1. [task1.exe i task1.c]**
-
+### Zadanie 1 - `task1.exe` i `task1.c`
 (Skopiuj kod z drugiego laboratorium gdzie należało wypisać swoje dane oraz dwóch osób obok. Wykorzystując funkcję zoptymalizuj kod tak by zajmował jak najmniej lini kodu.)
 
-Napisz funkcję show() która przyjmuje imię i nazwisko a następnie wypisuje je w konsoli. Wywołaj funkcję podając jako argumenty swoje dane oraz dwóch osób obok.
+Napisz funkcję `show()` która przyjmuje imię i nazwisko a następnie wypisuje je w konsoli.
+Wywołaj funkcję podając jako argumenty swoje dane oraz dwóch osób obok.
 
-Napisz funkcję suma() która zwraca sumę trzech liczb podanych jako argumenty funkcji.
+Napisz funkcję `suma()` która zwraca sumę trzech liczb podanych jako argumenty funkcji.
 
-### **Zadanie 2. [task2.exe i task2.c]**
+### Zadanie 2 - `task2.exe` i `task2.c`
+Utwórz i przetestuj funkcję `max_tab()` która przyjmuje jako argument 10-elementową tablicę liczb całkowitych a następnie zwraca największy element tablicy.
 
-Utwórz i przetestuj funkcję max_tab() która przyjmuje jako argument 10-elementową tablicę liczb całkowitych a następnie zwraca największy element tablicy.
+### Zadanie 3 - `task3.exe` i `task3.c`
+Utwórz i przetestuj funkcję `mean()` która jako argument przyjmuje 10-elementową tablicę liczb całkowitych a następnie zwraca średnią z tablicy.
 
-### **Zadanie 3. [task3.exe i task3.c]**
+### Zadanie 4 - `stats.exe` i `stats.c`
+Korzystając z dokumentacji biblioteki [string.h](https://cpp0x.pl/dokumentacja/standard-C/cstring-string-h/609) utwórz i przetestuj funkcję `stats()` która jako argument przyjmuje 10-elementową tablicę liczb całkowitych oraz łańcuch znaków który w zależności od przechowywanej zmiennej sprawi że funkcja zwróci inną wartość:
+- `min` - minimalną wartość z tablicy
+- `max` - maksymalną wartość z tablicy
+- `median` - medianę z tablicy
+- `mean` - średnią z tablicy
 
-Utwórz i przetestuj funkcję mean() która jako argument przyjmuje 10-elementową tablicę liczb całkowitych a następnie zwraca średnią z tablicy.
+### Zadanie 5 - `task5.exe` i `task5.c`
+Utworzyć funkcję `mystdev()` która może przyjmować rózne liczby parametrów liczb zmienno przecinkowych i zwraca średnią argumentów.
+Zmodyfikuj funkcję tak by zwracała odchylenie standardowe (zapoznaj się z dokumentacją biblioteki [math.h](https://cpp0x.pl/dokumentacja/standard-C/cmath-math-h/101) i wyszukaj odpowiednie funkcje) przekazanych argumentów według wzoru: 
+$$
+\sigma = \sqrt{\frac{1}{N}\sum_{n=1}^{N}(x_i - \overline{x})^2}
+$$ 
+gdzie 
+$$
+\overline{x}=\frac{1}{N}\sum_{i=1}^{N}x_i
+$$
 
-### **Zadanie 4. [stats.exe i stats.c]**
-
-Korzystając z dokumentacji biblioteki string.h utwórz i przetestuj funkcję stats() która jako argument przyjmuje 10-elementową tablicę liczb całkowitych oraz łańcuch znaków który w zależności od przechowywanej zmiennej sprawi że funkcja zwróci inną wartość:
-
-min - minimalną wartość z tablicy
-max - maksymalną wartość z tablicy
-median - medianę z tablicy
-mean - średnią z tablicy
-
-### **Zadanie 5. [task5.exe i task5.c]**
-
-Utworzyć funkcję mystdev() która może przyjmować rózne liczby parametrów liczb zmienno przecinkowych i zwraca średnią argumentów. Zmodyfikuj funkcję tak by zwracała odchylenie standardowe (zapoznaj się z dokumentacją biblioteki math.h i wyszukaj odpowiednie funkcje) przekazanych argumentów według wzoru.
-
-### **Zadanie 6. [task6.exe i task6.c]**
-
+### Zadanie 6
 Utwórz tablicę liter od a do z. Za pomocą wskaźników wypisz literę f.
 
-### **Zadanie 7. [task7.exe i task7.c]**
-
+### Zadanie 7 - `task7.exe` i `task7.c`
 Utwórz tablicę liter od a do z. Utwórz pętlę w której za pomocą wskaźników wypiszesz co n-ty element(zdefiniowany przez użytkownika) tej tablicy począwszy od 'c'.
 
-### **Zadanie 8. [swap.exe i swap.c]**
+### Zadanie 8 - `swap.exe` i `swap.c`
+Napisz funkcję `swap()` która przyjmuje wskaźniki do dwóch zmiennych typu float. Funkcja zamienia wartośći tych zmiennych.
 
-Napisz funkcję swap() która przyjmuje wskaźniki do dwóch zmiennych typu float. Funkcja zamienia wartośći tych zmiennych.
 
-Dodatkowe przykłady:
-
-Znalezienie wskaznika na liczbę w tablicy.
+## Dodatkowe przykłady
+### Znalezienie wskaznika na liczbę w tablicy.
 Zadaniem jest znalezienie wskaźnika na element w 2 wierszu a 3 kolumnie a następnie zmiana wartośći tego elementu.
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #define N 321
@@ -225,9 +231,12 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
+
 lub
 
-```
+```c
+
 #include <stdio.h>
 #include <stdlib.h>
 #define N 321
@@ -265,8 +274,10 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-Funkcje redukują ilość kodu.
-```
+
+
+### Funkcje redukują ilość kodu.
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -312,7 +323,12 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-```
+
+
+###
+
+```c
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -337,11 +353,11 @@ int main(int argc, char const *argv[])
     printf("Maksymalny element w tablicy x to %i", b);
     return 0;
 }
+
 ```
 
 Task 5
-
-```
+```c
 #include <stdio.h>
 #include <stdarg.h> // Wymagana jest biblioteka w której zadeklarowane są użyte funkcje va_start, va_end
 #include <math.h>
@@ -389,9 +405,10 @@ int main(int argc, char const *argv[])
 }
 ```
 
-Task 7
 
-```
+
+Task 7
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -428,9 +445,10 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
 swap
 
-```
+```c
 #include <stdio.h>
 
 // z użyciem dodatkowej zmiennej
