@@ -1,7 +1,5 @@
 # **Lab 03 - Pętle o tablice**
 
-# PPWJC 
-Lab 3
 
 ## Pytania
 
