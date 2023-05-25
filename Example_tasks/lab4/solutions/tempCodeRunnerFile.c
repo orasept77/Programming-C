@@ -1,0 +1,2 @@
+
+    printf("x = %s", tab);
