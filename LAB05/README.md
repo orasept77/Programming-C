@@ -1,11 +1,11 @@
 # **Lab05 - Rzutowanie, spójniki logiczne i struktury**
 
-**Rzutowanie, spójniki logiczne i struktury**
+Rzutowanie, spójniki logiczne i struktury
 
-### **Przykłady:**
 
-Rzutowanie
-```
+## Przykłady
+### Rzutowanie
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,8 +29,9 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-Operatory logiczne
-```
+
+### Operatory logiczne
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -63,8 +64,9 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
 Operatory logiczne można łączyć
-```
+```c
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -80,8 +82,10 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-Struktury
-```
+
+### Struktury
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -92,6 +96,7 @@ struct testStruct
     float height;
     char name[20];
 };
+
 
 int main(int argc, char const *argv[])
 {
@@ -112,8 +117,9 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
 Strktury można wykorzystać do zwrócenia kilku wartości przez funkcję.
-```
+```c
 struct rectangle
 {
     float x;
@@ -133,43 +139,59 @@ int main(){
 }
 ```
 
-## **Zadania:**
 
-### **Zadanie 1 [task1.exe]**
+## Zadania
+### Zadanie 1 `task1.exe`
+Wygeneruj wszystkie kombinacje dwu elementowe z powtórzeniami liczb 0 i 1:
+[0 0]
+[0 1]
+[1 0]
+[1 1]
 
-Wygeneruj wszystkie kombinacje dwu elementowe z powtórzeniami liczb 0 i 1: [0 0] [0 1] [1 0] [1 1]
-
-Wypisz w konsoli metrycę logiczną gdzie a to pierwszy element z kombinacji natomiast b jest drugim elementem kombinacji:
-
+Wypisz w konsoli metrycę logiczną gdzie `a` to pierwszy element z kombinacji natomiast `b` jest drugim elementem kombinacji:
+```terminal
 |a  |b  |~a|~b|a&&b |a||b  |
 |---|---|--|--|-----|------|
 |0  |0  |1 |1 |0    |0     |
 |0  |1  |1 |0 |0    |1     |
 |1  |0  |0 |1 |0    |1     |
 |1  |1  |0 |0 |1    |1     |
+```
+
+<details>
+<summary></summary>
+
 Kombinacje dwóch liczb wygenerować można w taki sam sposób jak przeglądając dwu wymiarową tablicę o wymiarach 2x2.
 
-### **Zadanie 2 [task2.exe]**
+</details>
 
-Utwórz kalkulator BMI w którym użytkownik podaje swoją wagę oraz wzrost a następnie wypisana zostaje informacja według następujących przedziałów:
+### Zadanie 2 `task2.exe`
+Utwórz kalkulator BMI w którym użytkownik podaje swoją wagę oraz wzrost a następnie wypisana zostaje informacja według następujących przedziałów:<br>
+![](https://www.zikodlazdrowia.org/wp-content/uploads/2020/06/bmi-scale_ziko_dla_zdrowia.png)
 
+$$
+BMI = \frac{kg}{m^2}
+$$
+kg - masa ciała w kilogramach
+m - wzrost w metrach
 
- 
-kg - masa ciała w kilogramach m - wzrost w metrach
+### Zadanie 3 `Task3.exe`
 
-### **Zadanie 3 [Task3.exe]**
-
-Utwórz strukturę patient przechowującą dane na temat pacjentów: Imię, nazwisko, wiek, pesel, wzrost, waga.
+Utwórz strukturę `patient` przechowującą dane na temat pacjentów: Imię, nazwisko, wiek, pesel, wzrost, waga.
 
 Utwórz tablicę przechowującą dane na temat 50 pacjentów. Wypełnij 5 pierwszych miejsc w tablicy danymi.
 
-Utwórz funkcję showdata() która przyjmuja jako parametr strukturę patient i na podstawie danych oblicza BMI a następnie wypisuje w konsoli informacje na temat pacjenta w nastepującym formacie:
+Utwórz funkcję `showdata()` która przyjmuja jako parametr strukturę `patient` i na podstawie danych oblicza BMI a następnie wypisuje w konsoli informacje na temat pacjenta w nastepującym formacie:
 
+```terminal
 Jan Kolwaski 35 lat 180cm 90kg - nadwaga
+```
 Wypisz dane na temat pacjentów.
 
-Podpowiedź:
-```
+<details>
+<summary>Podpowiedź</summary>
+
+```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -210,8 +232,13 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-Podpowiedź v2:
-```
+
+</details>
+
+<details>
+<summary>Podpowiedź v2</summary>
+
+```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -287,28 +314,41 @@ int main(int argc, char const *argv[])
 }
 ```
 
-### **Zadanie 4 [mytime.exe]**
+</details>
 
-Utwórz strukturę date przechowującą: rok, miesiąc, numer dnia w miesiącu, godzinę, liczbę minut, liczbę sekund.
+### Zadanie 4 `mytime.exe`
 
-Funkcja time(0) z biblioteki <time.h> zwraca obecną datę w postaci "timestamp" (liczba sekund od 1 stycznia 1970) https://www.epochconverter.com/ Napisz funkcję timestamptodate() która zamieni czas w sekundach liczbę lat, miesięcy, dni ... sekund i zapisze te dane w strukturze date.
+Utwórz strukturę `date` przechowującą: rok, miesiąc, numer dnia w miesiącu, godzinę, liczbę minut, liczbę sekund.
 
-Napisz funkcję datetotimestamp() która dokona odwrotnej konwersji na podstawie przekazanej struktury date.
+Funkcja `time(0)` z biblioteki <time.h> zwraca obecną datę w postaci "timestamp" (liczba sekund od 1 stycznia 1970) https://www.epochconverter.com/
+Napisz funkcję `timestamptodate()` która zamieni czas w sekundach liczbę lat, miesięcy, dni ... sekund i zapisze te dane w strukturze `date`.
 
-Utwórz funkcję showtime() przyjmującą format np. "YYYY MM DD HH:MM:SS" a nastepnie wypisującą w konsoli obecną datę w formacie zdefiniowanym przez parametr format. Obsłuż minimum możliwość zdefiniowania użytkownikowi formatu dnia, miesiąca i roku.
+Napisz funkcję `datetotimestamp()` która dokona odwrotnej konwersji na podstawie przekazanej struktury `date`.
 
-yy - wyświetla dwie cyfry roku np. 22 yyyy - wyświetla pełny rok np. 2022 m - wyświetla pojedynczą cyfrę oznaczającą miesiąc np. 3 mm - wyświetla dwie cyfry oznaczające miesiąc np. 03 mmm - wyśeitla 3 znaki oznaczające miesiąc np. mar mmmm - wyświetla pełną nazwę miesiąca np. march d - wyświetla pojedynczą cyfrę oznaczającą dzień 4 dd - wyświetla dwie cyfry oznaczające dizeń np. 04
+Utwórz funkcję `showtime()` przyjmującą format np. "YYYY MM DD HH:MM:SS" a nastepnie wypisującą w konsoli obecną datę w formacie zdefiniowanym przez parametr format. Obsłuż minimum możliwość zdefiniowania użytkownikowi formatu dnia, miesiąca i roku.
 
-Utwórz funkcję printtime() która działa podobnie jak funkcja showtime() z tą różnicą że nie przyjmuje parametrów lecz format jest zdefiniowany w stałej globalnej DATE_FORMAT.
+yy - wyświetla dwie cyfry roku np. 22
+yyyy - wyświetla pełny rok np. 2022
+m - wyświetla pojedynczą cyfrę oznaczającą miesiąc np. 3
+mm - wyświetla dwie cyfry oznaczające miesiąc np. 03
+mmm - wyśeitla 3 znaki oznaczające miesiąc np. mar
+mmmm - wyświetla pełną nazwę miesiąca np. march
+d - wyświetla pojedynczą cyfrę oznaczającą dzień 4
+dd - wyświetla dwie cyfry oznaczające dizeń np. 04
 
-Utwórz funkcję isbetweendates() która przyjmuje 3 daty i zwraca jeden jeśli data podana jako pierwszy argument znajduje się w okresie pomiędzy pozostałymi dwoma argumentami. 0 w przeciwnym przypakdu.
+Utwórz funkcję `printtime()` która działa podobnie jak funkcja `showtime()` z tą różnicą że nie przyjmuje parametrów lecz format jest zdefiniowany w stałej globalnej DATE_FORMAT.
 
-### **Zadanie 5 [task5.exe]**
+Utwórz funkcję `isbetweendates()` która przyjmuje 3 daty i zwraca jeden jeśli data podana jako pierwszy argument znajduje się w okresie pomiędzy pozostałymi dwoma argumentami. 0 w przeciwnym przypakdu.
+
+
+### Zadanie 5 `task5.exe`
 
 Napisz funkcję obliczającą miejsca zerowe funkcji kwadratowej. Uwzględnij że funkcja może zwracać zero, jedną lub dwie wartości. W komentarzach opisz działanie funkcji, argumenty jakie przyjmuje oraz zaprezentuj działanie na wybranych przykładach.
 
-Podpowiedź:
-```
+<details>
+<summary>Podpowiedź </summary>
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -359,3 +399,5 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
+</details>
