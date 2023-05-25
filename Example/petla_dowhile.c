@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+
+int pomiar[3][4][2];
+// %p%o szczestkowy osemkowy
+
+int main()
+{
+    int i=0;
+    int j=0;
+    int k=0;
+    do
+    {
+        while(i<3)
+        {
+            while(j<4)
+            {
+                pomiar[i][j][k]=1;
+                j++;
+            }
+            i++;
+        }
+        k++;
+    }while(k<2);
+
+    i=0;
+    j=0;
+    k=0;
+
+    do
+    {
+        printf("\n");
+        while(i<3)
+        {
+            printf("\n");
+            while(j<4)
+            {
+                printf("\n");
+                printf("%d\t", pomiar[i][j][k]);
+                j++;
+            }
+            i++;
+        }
+        k++;
+    }while(k<2);
+
+    return 0;
+}
