@@ -1,16 +1,21 @@
 # **Lab 03 - Pętle o tablice**
 
-### **Pytania:**
-1. W jaki sposób definiujemy tablice?
-2. Jak odczytać wartość z tablicy?
-3. Jak zmodyfikować wartość tablicy?
-4. Czym są tablice wielowymiarowe?
-5. Jak zbudowana jest pętla for?
-6. Jak zbudowana jest pętla while/do while?
+# PPWJC 
+Lab 3
 
-### **Przykłady:**
-Defioniowanie tablic jedno i wielowymiarowych:
-```
+## Pytania
+
+- W jaki sposób definiujemy tablice?
+- Jak odczytać wartość z tablicy?
+- Jak zmodyfikować wartość tablicy?
+- Czym są tablice wielowymiarowe?
+- Jak zbudowana jest pętla for?
+- Jak zbudowana jest pętla while/do while?
+
+## Przykłady
+### Defioniowanie tablic jedno i [wielowymiarowych](https://cse.engineering.nyu.edu/~mleung/CS1114/s08/ch08/MDmemory.htm):
+
+```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
@@ -33,17 +38,25 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
 Poniższy literał pozwala na zdefiniowanie tablicy o danej wielkości i przypisnanie odrazu wartości do kolejnych pól tablicy.
-```
+
+```c
 int array[3] = {1,2,3};
+```
+
 Lub bez podawania wielkośći. Kompilator odczyta ją z literału deklarującego wartości.
 
+```c
 int array[] = {1,2,3};
+```
+
 Definiowanie tablicy wielowymiarowej(tablica w tablicy):
 
-[[1,2,3],
+[[1,2,3],<br>
 [4,5,6]]
 
+```c
 int main(int argc, char const *argv[])
 {
     int array[2][3];
@@ -58,23 +71,31 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+
 Definiowanie i przypisanie wartości tablicy wielowymiarowej.
-```
+
+
+```c
 char chararray[3][2] = { {'a','b'},
                          { 'c','d' },
                          { 'e','f' } };
 
 printf("%c",chararray[1][1]);
 ```
-Pętle
-for
 
-do-while
 
-while
 
-break - przerywa działanie pętli.
-```
+
+### Pętle
+
+[for](https://learn.microsoft.com/pl-pl/cpp/c-language/for-statement-c?view=msvc-170)
+
+[do-while](https://learn.microsoft.com/pl-pl/cpp/c-language/do-while-statement-c?view=msvc-170)
+
+[while](https://learn.microsoft.com/pl-pl/cpp/c-language/while-statement-c?view=msvc-170)
+
+`break` - przerywa działanie pętli.
+```c
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -89,7 +110,7 @@ int main(int argc, char const *argv[])
 }
 ```
 W standardzie c99 nie można zadeklarować wartości w pętli jak w powyższym przykładzie.
-```
+```c
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -104,9 +125,9 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-continue - przechodzi do następnej iteracji.
+`continue` - przechodzi do następnej iteracji.
 
-```
+```c
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -120,23 +141,20 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
+## Zadania
 
-## **Zadania:**
-
-
-### **Zadanie 1. [task1.exe]**
-
+### Zadanie 1 - `task1.exe`
 Utwórz program który przechowa dane następującej tabeli:
-```
-3.1	3.6
-2.2	6.42
-3.1	3.6
-3.5	32.6
-```
-Wypisz w konsoli zaznaczoną wartość używając indeksów. Zmodyfikuj program tak by użytkownik mógł wskazać który element tablicy chce odczytać.
+| 3.1 | 3.6 |
+|-----|-----|
+| 2.2 | 6.42|
+| 3.1 | <mark>3.6</mark> |
+| 3.5 | 32.6 |
 
-### **Zadanie 2. [forexcercise.exe]**
+Wypisz w konsoli zaznaczoną wartość używając indeksów.
+Zmodyfikuj program tak by użytkownik mógł wskazać który element tablicy chce odczytać.
 
+### Zadanie 2 - `forexcercise.exe`
 Utwórz program który wypisuje liczby od 0 do 20.
 
 Utwórz program który wypisuje liczby od 5 do 25.
@@ -147,38 +165,36 @@ Utwórz program który wypisuje począwszy od 1 co 3 kolejną liczbę do wartoś
 
 Utwórz program który wypisuje 100 liczb podzielnych przez 5.
 
-### **Zadanie 3. [printtable.exe]**
+### Zadanie 3 - `printtable.exe`
+Utwórz program który wypisze w konsoli tablicę z poprzedniego zadania wykorzystując pętlę w formacie:<br>
+| 3.1&emsp;| 3.6&nbsp;&nbsp;&emsp;|<br>
+| 2.2&emsp;| 6.42&emsp;|<br>
+| 3.1&emsp;| 3.6&nbsp;&nbsp;&emsp;|<br>
+| 3.5&emsp;| 32.6&emsp;|<br>
 
-Utwórz program który wypisze w konsoli tablicę z poprzedniego zadania wykorzystując pętlę w formacie:
-```
-| 3.1 | 3.6   |
-| 2.2 | 6.42 |
-| 3.1 | 3.6   |
-| 3.5 | 32.6 |
-```
-
-### **Zadanie 4. [task4.exe]**
+### Zadanie 4 - `task4.exe`
+<!-- Utwórz program który w tablicy oddarray przechowuje 1000 kolejnych liczb parzystych za pomocą pętli for. Jaki rozmiar tablicy musisz ustawić by zabrakło pamięci? -->
 
 Używając instrukcji break i continue napisz program który wypisze liczby od 0 do zadanej przez użytkownika wartości z pominięciem liczb podzielnych przez 3.
 
-### **Zadanie 5. [otherloops.exe]**
+### Zadanie 5 - `otherloops.exe`
+Spróbuj wykonać poprzednie zadanie za pomocą innej pętli(jeśli używałeś for za pomocą pętli `while` lub `do-while`).
 
-Spróbuj wykonać poprzednie zadanie za pomocą innej pętli(jeśli używałeś for za pomocą pętli while lub do-while).
-
-### **Zadanie 6. [primenumbers.exe]**
-
+### Zadanie 6 - `primenumbers.exe`
 Utwórz program który wypisuje kolejne liczby pierwsze.*
 
-### **Zadanie 7. [twodimensionarray.exe]**
-
-Napisz program który przechowuje w tablicy 3x3 wartości podane przez użytkownika.
+### Zadanie 7 - `twodimensionarray.exe`
+Napisz program który przechowuje w tablicy 3x3 wartości podane przez użytkownika. 
 
 Dodaj do programu menu z następującymi opcjami:
 
-Średnia z wybranej kolumny
-Średnia z wybranego wiersza
-Modyfikacja wybranej komórki
-Wyjście z progrmau
+1. Średnia z wybranej kolumny
+2. Średnia z wybranego wiersza
+3. Modyfikacja wybranej komórki
+4. Wyjście z progrmau
+
 Program ma działać dopóki użytkownik nie wybierze opcji 4. W przypadkach 1,2,3 ma umożliwiać użytkownikowi wybranie wiersza/koumny a następnie wykonywać odpowiednie obliczenia.
 
-test sprawdzający wartość średniej.
+
+test sprawdzający wartość średniej
+
