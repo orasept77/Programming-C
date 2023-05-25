@@ -1,8 +1,6 @@
 # **Lab03 - Funkcje, wskaźniki, zakres zmiennych**
 
 
-## Pytania
-
 ## Przykłady
 ### [Funkcje](https://pl.wikibooks.org/wiki/C/Funkcje)
 
