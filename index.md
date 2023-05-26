@@ -1,5 +1,6 @@
-## C
+# Język C
 
+## Spis treści:
 [Lab00](LAB00/README.md) - Konfiguracja środowiska\
 [Lab01](LAB01/README.md) - Zmienne, Operatory, Instrukcje warunkowe, I/O\
 [Lab02](LAB02/README.md) - Pętle i tablice.\
