@@ -6,7 +6,7 @@ Repozytorium Kursy w języku C zawiera materiały edukacyjne, przykładowe proje
 ## **Jak zacząć:**
 Aby skorzystać z materiałów dostępnych w tym repozytorium, sklonuj repozytorium na swój lokalny komputer:
 ```
-git clone https://github.com/dawidolko/Programming-C/courses.git
+git clone https://github.com/dawidolko/Programming-C/tree/main/courses
 ```
 Przeglądaj dostępne projekty, skrypty i materiały w odpowiednich folderach.
 
