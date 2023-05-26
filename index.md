@@ -12,4 +12,4 @@
 [Kolokwium](KOLOKWIUM/README.md) - 0, 1, 2, 3 kolokwia\
 [Kursy](Courses/README.md) - Kursy\
 [Przykład](Example_tasks/README.md) - Przykłady zadań\
-[Projekty](pojects/README.md) - Projekty\
+[Projekty](pojects/README.md) - Projekty
