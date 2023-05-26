@@ -9,7 +9,7 @@
 [Lab06](LAB06/README.md) - Gra w kółko i krzyżyk.\
 [Lab07](LAB07/README.md) - Zapis i odczyt plików.\
 [Lab08](LAB08/README.md) - Unie i alokacja pamięci.
-[Kolokwium](KOLOKWIUM/README.md) - 0, 1, 2, 3 kolokwia
-[Kursy](Courses/README.md) - Kursy
-[Przykład](Example_tasks/README.md) - Przykłady zadań
-[Projekty](pojects/README.md) - Projekty
+[Kolokwium](KOLOKWIUM/README.md) - 0, 1, 2, 3 kolokwia\
+[Kursy](Courses/README.md) - Kursy\
+[Przykład](Example_tasks/README.md) - Przykłady zadań\
+[Projekty](pojects/README.md) - Projekty\
