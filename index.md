@@ -1,3 +1,8 @@
+---
+redirect_to: c.dawidolko.pl
+---
+
+
 # Język C
 
 ## Spis treści:
