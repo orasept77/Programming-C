@@ -1,4 +1,4 @@
-# **Lab 03 - Pętle o tablice**
+# **Lab 02 - Pętle o tablice**
 
 
 ## Pytania
