@@ -58,7 +58,7 @@ Ponadto jest oceniana:
 
 Należy potrafić odczytywać dane z plików tekstowych oraz zapisywać dane do plików tekstowych.
 
-## DOSTATECZNY
+## [DOSTATECZNY](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa4/dst_gr4.c)
 
 ### Mnożenie macierzy przez liczbę
 Napisz funkcję `matrix_multiplication()`. Która przyjmuje następujące parametry:
@@ -130,12 +130,12 @@ Przetestuj działanie funkcji.
 
 Utwórz funkcję `compare()` która przyjmuje dwie tablice o takiej samej długości zawierające znaki oraz liczbę znaków. Funkcja zwraca 0 jeśli słowa są takie same lub ilość liter którymi się różnią.
 
-## DOBRY
+## [DOBRY](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa4/db_gr4.c)
 
 
 
 
-## BARDZO DOBRY
+## [BARDZO DOBRY](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa4/bdb_gr4.c)
 
 ### Mnożenie macierzy
 
