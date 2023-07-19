@@ -11,7 +11,7 @@
 - Zainstalować [Visual Studio Code](https://code.visualstudio.com) 
 - Zainstalować kompilator języka C. Np. Pakiet [MinGW](https://sourceforge.net/projects/mingw/) zawierający kompilator GCC dla Windows. 
 :warning: Zwróć uwagę na lokalizację zainstalowania pakietu. Będzie ona potrzebna przy kolejnych krokach.
-<br>![mingw_path]([images/lab0mingwpath.png)
+<br>![mingw_path](images/lab0mingwpath.png)
 - Podczas instalacji w jednym z kroków należy zaznaczyć pakiety które chcemy zainstalować.(wszystkie)
 <br>![mingw_packages](images/lab0mingwpickpackages.png)
 - Po wybraniu pakietów należy kliknąć **installation > Apply Changes** i potwierdzić wybór.
