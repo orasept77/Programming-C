@@ -19,8 +19,7 @@ W funkcji main:
 
 ## 2. Utworzyć trzy obiekty `MY_STUDENT` i dołożyć do tablicy dynamicznej.
 
-## 3. Zwolnić pamięć dla trzech obiektów `MY_STUDENT`. Przy tym to zwolnienie pamięci nie powinno uszkodzić danych, które
-znajdują się w KONTENERZE.
+## 3. Zwolnić pamięć dla trzech obiektów `MY_STUDENT`. Przy tym to zwolnienie pamięci nie powinno uszkodzić danych, które znajdują się w KONTENERZE.
 
 ## 4. Wyprowadzić z KONTENERA dane na monitor.
 
