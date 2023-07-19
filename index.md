@@ -43,14 +43,30 @@ redirect_to: c.dawidolko.pl
 **[Lab08](LAB08/README.md) - Unie i alokacja pamięci.**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/LAB08)
 
-
-**[Kolokwium](KOLOKWIUM/README.md) - 0, 1, 2, 3 kolokwia**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM)
-
-
 **[Przykład](Example_tasks/README.md) - Przykłady zadań**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks)
 
+### Kolokwia: 
+**[Treść zadań](KOLOKWIUM/exam0/README.md) - Kolokwium 0**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam0)
+
+**[Treść zadań](KOLOKWIUM/exam1/README.md) - Kolokwium 1**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1)
+
+**[Treść zadań](KOLOKWIUM/exam2/README.md) - Kolokwium 2**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2)
+
+**[Treść zadań](KOLOKWIUM/exam4/README.md) - Kolokwium 3**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam4)
+
+**[Treść zadań](KOLOKWIUM/exam5/README.md) - Kolokwium 4**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam5)
+
+**[Treść zadań](KOLOKWIUM/exam6/README.md) - Kolokwium 5**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam6)
+
+**[Treść zadań](KOLOKWIUM/wejsciowki/README.md) - Kolokwium 6**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/wejsciowki)
 
 ### Projekty:
 
