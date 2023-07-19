@@ -7,19 +7,19 @@ W tym katalogu znajdują się przykłady zadań programistycznych, które mają 
 
 **[Lab01](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab1):** Zmienne, Operatory, Instrukcje warunkowe, IN/OUT
 
-**[Lab02](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab2):** Pętle i tablice
+**[Lab02](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab2):** Pętle i tablice
 
-**[Lab03](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab3):** Funkcje, wskaźniki, zakres zmiennych
+**[Lab03](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab3):** Funkcje, wskaźniki, zakres zmiennych
 
-**[Lab04](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab4):** Biblioteki standardowe i operacje na łańcuchach znaków
+**[Lab04](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab4):** Biblioteki standardowe i operacje na łańcuchach znaków
 
-**[Lab05](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab5):** Rzutowanie, spójniki logiczne i struktury
+**[Lab05](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab5):** Rzutowanie, spójniki logiczne i struktury
 
-**[Lab06](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab6):** Gra w kółko i krzyżyk
+**[Lab06](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab6):** Gra w kółko i krzyżyk
 
-**[Lab07](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab7):** Zapis i odczyt plików
+**[Lab07](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab7):** Zapis i odczyt plików
 
-**[Lab08](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/Lab8):** Unie i alokacja pamięci
+**[Lab08](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/lab8):** Unie i alokacja pamięci
 
 **[Kolokwium](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks/kolokwium2):** Powtórka materiału
 
