@@ -4,6 +4,8 @@ redirect_to: c.dawidolko.pl
 
 # Język C
 
+<br>![C](C.png)
+
 ## Spis treści:
 
 ### Labolatoria:
