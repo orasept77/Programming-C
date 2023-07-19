@@ -6,7 +6,7 @@ Wybrać jedno z poniższych zadań. Pliki z rozwiązaniami nazwać w zależnośc
 - `bdb_gr2.c` i `bdb.exe` dla oceny 5
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## Bardzo dobry
+## [Bardzo dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa2/bdb_gr2.c)
 
 ### EK_3
 
@@ -87,7 +87,7 @@ Zapisz wynik mnożenia macierzy w pliku tekstowym `wyniki.txt` w postaci:
 29.00	29.00
 ```
 
-## Dobry
+## [Dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa2/db_gr2.c)
 
 ### EK_3
 Napisz funkcję `print_matrix()` która wypisuje w konsoli zawartość macierzy(macierz powinna być alokowana dynamicznie z użyciem odpowiednich funkcji) liczb zmiennoprzecinkowych w następującej postaci:
@@ -138,7 +138,7 @@ Wywołaj funkcję `calculate_distances()` dla każdej z testowych macierzy tak a
 Zmodyfikuj program tak aby obliczone wyniki zostały zapisane do pliku `wyniki.txt`.
 
 
-## Dostateczny
+## [Dostateczny](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa2/dst_gr2.c)
 
 ### EK_3
 
