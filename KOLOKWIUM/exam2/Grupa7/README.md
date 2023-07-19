@@ -6,7 +6,7 @@ Wybrać jedno z poniższych zadań. Pliki z rozwiązaniami nazwać w zależnośc
 - `bdb.c` i `bdb.exe` dla oceny 5
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## Bardzo dobry
+## [Bardzo dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa7/bdb_gr7.c)
 
 ### EK_3
 
