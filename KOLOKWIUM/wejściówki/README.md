@@ -1,6 +1,6 @@
 # Wejściówki
 
-## Nr. 1
+## [Nr. 1](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/wejściówki/wejsciowka1.c)
 
 Napisz program który pyta użytkownika o imię, następnie o numer albumu, po czym wypisuje "Witaj [podane imię]!" oraz Imię i nazwisko autora pliku.
 Przykładowe działanie programu:
@@ -11,7 +11,7 @@ Jan Kolwaski
 
 Pliki należy przesłać do tego zadania.
 
-## Nr. 2
+## [Nr. 2](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/wejściówki/wejsciowka2.c)
 
 Napisz program który przechowa w tablicy 5 liter podanych przez użytkownika. Litery a, b, t powinny być zamienianie na wielkie litery. Oczekiwane wyjście w konsoli:
 
