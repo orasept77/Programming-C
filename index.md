@@ -2,10 +2,12 @@
 redirect_to: c.dawidolko.pl
 ---
 
-
 # Język C
 
 ## Spis treści:
+
+### Labolatoria:
+
 [Lab00](LAB00/README.md) - Konfiguracja środowiska\
 [Pliki](https://github.com/dawidolko/Programming-C/tree/main/LAB00)
 
@@ -42,5 +44,22 @@ redirect_to: c.dawidolko.pl
 [Przykład](Example_tasks/README.md) - Przykłady zadań\
 [Pliki](https://github.com/dawidolko/Programming-C/tree/main/Example_tasks)
 
-[Projekty](projects/README.md) - Projekty\
-[Pliki](https://github.com/dawidolko/Programming-C/tree/main/projects)
+### Projekty:
+
+[Co to projekty?](projects/README.md) - Definicja i zagadnienia\
+[Repozytorium](https://github.com/dawidolko/Programming-C/tree/main/projects)
+
+### Kursy:
+
+[Co to kursy?](courses/README.md) - Definicja i zagadnienia\
+- [Kurs 1](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)
+  [Opis kursu](courses/Course1/README.md)
+  
+- [Kurs 2](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)
+  [Opis kursu](courses/Course2/README.md)
+  
+- [Kurs 3](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)
+  [Opis kursu](courses/Course3/README.md)
+
+
+
