@@ -3,7 +3,7 @@
 Wybrać jedno z poniższych zadań.
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## 3.0
+## [3.0](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/GrupaB/GrupaB_3.c)
 
 Napisz funkcję `genPassword()` która przyjmuje 3 parametry: ilośc liter w haśle, ilość cyfr w haśle, ilość znaków specjalnych w haśle.
 
@@ -146,7 +146,7 @@ Wybierz opcje: 2
 Zakońćzenie działania programu.
 ```
 
-## 4.0
+## [4.0](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/GrupaB/GrupaB_4.c)
 Utwórz program `db_macierzodleglosci`.
 
 Napisz funkcję `allocate_2d_array()` która dynamicznie alokuje miejsce w pamięci na macierz liczb zmiennoprzecinkowych o rozmiarze przekazanym jako parametry funkcji. Funkcja zwraca wskaźnik na tę macierz.
