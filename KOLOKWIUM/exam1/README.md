@@ -18,7 +18,6 @@ DB: Student potrafi poprawnie stworzyć programy rozwiązujące średnio-zaawans
 
 BDB: Student potrafi poprawnie stworzyć programy rozwiązujące zaawansowane problemy wykorzystując możliwości standardowych bibliotek dostępnych w języku C.
 
-# Kolokwium 1
 ## Zmienne
 ### Typy zmiennych
 Należy znać typy zmiennych w języku C, orientacyjnie wiedzieć ile miejsca w pamięci zajmują oraz jakie minimalne i maksymalne wartości mogą przechowywać.
