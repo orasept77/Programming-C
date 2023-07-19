@@ -6,7 +6,7 @@ Wybrać jedno z poniższych zadań. Pliki z rozwiązaniami nazwać w zależnośc
 - `bdb_gr4.c` i `bdb.exe` dla oceny 5
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## Bardzo dobry
+## [Bardzo dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa6/bdb_gr6.c)
 
 ### EK_3
 
@@ -120,7 +120,7 @@ A       B       C       D
 <br>
 <br>
 
-## Dobry
+## [Dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa6/db_gr6.c)
 
 ### EK_3
 Utwórz funkcję `allocate_2d_array()` która dynamicznie alokuje miejsce w pamięci na macierz liczb zmiennoprzecinkowych o rozmiarze przekazanym jako parametry funkcji. Funkcja zwraca wskaźnik na tę macierz.
@@ -180,7 +180,7 @@ Zmodyfikuj program tak aby wynik działania programu został zapisany do pliku w
 <br>
 <br>
 
-## Dostateczny
+## [Dostateczny](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa6/dst_gr6.c)
 
 ### EK_3
 Utwórz funkcję `palindrom()` która sprawdzi czy znaki przechowywane w tablicy są palindromem(słowo lub ciąg znaków, który czytany od przodu i od tyłu brzmi tak samo) a następnie zwróci wartość true jeśli są lub false jeśli nie są. Funkcja przyjmuje tablicę dowolnej długości i przy sprawdznaiu pomija puste znaki. np.
