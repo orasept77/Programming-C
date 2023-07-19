@@ -139,7 +139,7 @@ int main(int argc, char const *argv[])
 
 ## Zadania
 
-### Zadanie 1 - `task1.exe` i `task1.c`
+### [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task1.c) - `task1.exe` i `task1.c`
 (Skopiuj kod z drugiego laboratorium gdzie należało wypisać swoje dane oraz dwóch osób obok. Wykorzystując funkcję zoptymalizuj kod tak by zajmował jak najmniej lini kodu.)
 
 Napisz funkcję `show()` która przyjmuje imię i nazwisko a następnie wypisuje je w konsoli.
@@ -147,20 +147,20 @@ Wywołaj funkcję podając jako argumenty swoje dane oraz dwóch osób obok.
 
 Napisz funkcję `suma()` która zwraca sumę trzech liczb podanych jako argumenty funkcji.
 
-### Zadanie 2 - `task2.exe` i `task2.c`
+### [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task2.c) - `task2.exe` i `task2.c`
 Utwórz i przetestuj funkcję `max_tab()` która przyjmuje jako argument 10-elementową tablicę liczb całkowitych a następnie zwraca największy element tablicy.
 
-### Zadanie 3 - `task3.exe` i `task3.c`
+### [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task3.c) - `task3.exe` i `task3.c`
 Utwórz i przetestuj funkcję `mean()` która jako argument przyjmuje 10-elementową tablicę liczb całkowitych a następnie zwraca średnią z tablicy.
 
-### Zadanie 4 - `stats.exe` i `stats.c`
+### [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task4.c) - `stats.exe` i `stats.c`
 Korzystając z dokumentacji biblioteki [string.h](https://cpp0x.pl/dokumentacja/standard-C/cstring-string-h/609) utwórz i przetestuj funkcję `stats()` która jako argument przyjmuje 10-elementową tablicę liczb całkowitych oraz łańcuch znaków który w zależności od przechowywanej zmiennej sprawi że funkcja zwróci inną wartość:
 - `min` - minimalną wartość z tablicy
 - `max` - maksymalną wartość z tablicy
 - `median` - medianę z tablicy
 - `mean` - średnią z tablicy
 
-### Zadanie 5 - `task5.exe` i `task5.c`
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task5.c) - `task5.exe` i `task5.c`
 Utworzyć funkcję `mystdev()` która może przyjmować rózne liczby parametrów liczb zmienno przecinkowych i zwraca średnią argumentów.
 Zmodyfikuj funkcję tak by zwracała odchylenie standardowe (zapoznaj się z dokumentacją biblioteki [math.h](https://cpp0x.pl/dokumentacja/standard-C/cmath-math-h/101) i wyszukaj odpowiednie funkcje) przekazanych argumentów według wzoru: 
 $$
@@ -171,13 +171,13 @@ $$
 \overline{x}=\frac{1}{N}\sum_{i=1}^{N}x_i
 $$
 
-### Zadanie 6
+### [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task6.c)
 Utwórz tablicę liter od a do z. Za pomocą wskaźników wypisz literę f.
 
-### Zadanie 7 - `task7.exe` i `task7.c`
+### [Zadanie 7](https://github.com/dawidolko/Programming-C/blob/main/LAB03/task7.c) - `task7.exe` i `task7.c`
 Utwórz tablicę liter od a do z. Utwórz pętlę w której za pomocą wskaźników wypiszesz co n-ty element(zdefiniowany przez użytkownika) tej tablicy począwszy od 'c'.
 
-### Zadanie 8 - `swap.exe` i `swap.c`
+### [Zadanie 8](https://github.com/dawidolko/Programming-C/blob/main/LAB03/swap.c) - `swap.exe` i `swap.c`
 Napisz funkcję `swap()` która przyjmuje wskaźniki do dwóch zmiennych typu float. Funkcja zamienia wartośći tych zmiennych.
 
 
