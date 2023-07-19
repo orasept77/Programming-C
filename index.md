@@ -139,12 +139,12 @@ redirect_to: c.dawidolko.pl
 
 <br>
   
-- **[Kurs 2](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)**
+- **[Kurs 2](https://github.com/dawidolko/Programming-C/tree/main/courses/Course2)**
   - [Opis kursu](courses/Course2/README.md)
 
 <br>
   
-- **[Kurs 3](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)**
+- **[Kurs 3](https://github.com/dawidolko/Programming-C/tree/main/courses/Course3)**
   - [Opis kursu](courses/Course3/README.md)
 
 
