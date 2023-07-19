@@ -1,9 +1,9 @@
-## Zadanie 1 - kompilacja
+## [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task1.c) - kompilacja
 Do każdego z poprawnie rozwiązanych zadań utwórz plik `solution[X].exe` gdzie [X] jest numerem rozwiązywanego zadania i odpowiada zawartości pliku `task[X].c`.
 
 np. Plik task1.c ma zostać skompilowany do pliku solution1.exe
 
-## Zadanie 2  (`task2.c`, `solution2.exe`)
+## [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task2.c)  (`task2.c`, `solution2.exe`)
 
 Napisz program który prosi użytkownika o podanie zmienny różnych typów a następnie wypisuje je w konsoli. Utwórz zmienne z odpowiednim typem by przechować wprowadzane przez użytkownika wartości.
 
@@ -27,7 +27,7 @@ Type first letter of your lastname: K
 Value entered[K]
 ```
 
-## Zadanie 3  (`task3.c`, `solution3.exe`)
+## [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task3.c)  (`task3.c`, `solution3.exe`)
 
 Utwórz program który pyta użytkownika o liczbę całkowitą. Jeśli podana przez użytkownika liczba jest podzielna przez 3 wypisz "liczba jest podzielna przez 3", jeśli podana liczba jest podzielna przez 5 wypisz "liczba jest podzielna przez 5", w przeciwnym razie wypisz "liczba nie jest podzielna przez 3 i 5".
 
@@ -49,7 +49,7 @@ Podaj liczbę: 4
 liczba nie jest podzielna przez 3 i 5
 ```
 
-## Zadanie 4  (`task4.c`, `solution4.exe`)
+## [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task4.c)  (`task4.c`, `solution4.exe`)
 
 Wykorzystując instrukcję `switch` utwórz program który pyta użytkownika o liczbę całkowitą. 
 Jeśli uzytkownik wpisze wartość 0 wypisz "wyjscie z programu". 
@@ -62,7 +62,7 @@ Podaj liczbe: 0
 wyjscie z programu
 ```
 
-## Zadanie 5  (`task5.c`, `solution5.exe`)
+## [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task5.c)  (`task5.c`, `solution5.exe`)
 
 Utwórz zmienną przechowującą wartości następującej tabeli:
 
@@ -82,7 +82,7 @@ Za pomocą pętli `for` wypisz wartości przechowywane w tej zmiennej w postaci:
 4 wiersz 3 kolumna - 1
 ```
 
-## Zadanie 6  (`task6.c`, `solution6.exe`)
+## [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task6.c)  (`task6.c`, `solution6.exe`)
 
 Napisz program wykorzystujący pętlę `while` który pobiera od użytkownika wartości całkowite i je sumuje aż do momentu podania wartości 0. Po podaniu wartości 0 wypisywana jest suma wpisanych wartości.
 
@@ -96,7 +96,7 @@ enter value: 0
 sum = 4
 ```
 
-## Zadanie 7  (`task7.c`, `solution7.exe`)
+## [Zadanie 7](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task7.c)  (`task7.c`, `solution7.exe`)
 
 Napisz funkcję `volumeOfCuboid()` przyjmującą 3 parametry. Parametry te są długościami boków prostopadłościanu jako liczby zmiennoprzecinkowe. Funkcja zwraca objętość prostopadłościanu na podstawie przekazanych wartości.
 
@@ -110,7 +110,7 @@ przykładowa sesja:
 Objetosc prostopadloscianu o bokach 4, 6, 3 wynosi 72
 ```
 
-## Zadanie 8  (`task8.c`, `solution8.exe`)
+## [Zadanie 8](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task8.c)  (`task8.c`, `solution8.exe`)
 
 Napisz funkcję `findCharPosition()` która przyjmuje dwa parametry:
 - łańcuch znaków
@@ -130,7 +130,7 @@ przykładowa sesja:
 "Kowalski" "K" - 0
 ```
 
-## Zadanie 9  (`task9.c`, `solution9.exe`)
+## [Zadanie 9](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam1/Poprawka/task9.c)  (`task9.c`, `solution9.exe`)
 
 Utwórz zmienną `variable1` przechowującą napis "Programowanie.".
 Utwórz wskaźnik `endwsk` na ostatni element napisu czyli ".".
