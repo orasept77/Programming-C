@@ -3,7 +3,7 @@
 Wybrać jedno z poniższych zadań.
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## 3.0
+## [3.0](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/GrupaA/GrupaA_3.c)
 Utwórz program `dst_palindrom`.
 
 Utwórz funkcję `checkPalindrom()` która przyjmuje łańcuch znaków(**tablica** znaków zakończona pustym znakiem). Funkcja zlicza ile znaków jest na właściwej pozycji by utworzyć palindrom(słowo czytane od przodu i od tyłu brzmiące tak samo) i zwraca tę liczbę. Jeśli łańcuch znaków jest palindromem wtedy zwraca liczbę liter w słowie. np.
@@ -56,7 +56,7 @@ Wybierz opcje: 2
 Zakońćzenie działania programu.
 ```
 
-## 4.0
+## [4.0](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/GrupaA/GrupaA_4.c)
 Utwórz program `db_sortowanie`.
 
 Utwórz funkcję `allocate_2d_array()` która dynamicznie alokuje miejsce w pamięci na macierz liczb zmiennoprzecinkowych o rozmiarze przekazanym jako parametry funkcji. Funkcja zwraca wskaźnik na tę macierz.
