@@ -56,8 +56,38 @@ redirect_to: c.dawidolko.pl
 **[Treść zadań](KOLOKWIUM/exam1/Grupa2/README.md) - Kolokwium 1 Grupa 2**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa2)
 
-**[Treść zadań](KOLOKWIUM/exam2/README.md) - Kolokwium 2**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2)
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa1/README.md) - Kolokwium 2 Grupa 1**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa1)
+
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa2/README.md) - Kolokwium 2 Grupa 2**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa2)
+
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa3/README.md) - Kolokwium 2 Grupa 3**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa3)
+
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa4/README.md) - Kolokwium 2 Grupa 4**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa4)
+
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa5/README.md) - Kolokwium 2 Grupa 5**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa5)
+
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa6/README.md) - Kolokwium 2 Grupa 6**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa6)
+
+- **[Treść zadań](KOLOKWIUM/exam2/Grupa7/README.md) - Kolokwium 2 Grupa 7**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa7)
+
+- **[Treść zadań](KOLOKWIUM/exam2/GrupaA/README.md) - Kolokwium 2 Grupa A**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/GrupaA)
+
+- **[Treść zadań](KOLOKWIUM/exam2/GrupaB/README.md) - Kolokwium 2 Grupa B**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/GrupaB)
+
+- **[Treść zadań](KOLOKWIUM/exam2/GrupaC/README.md) - Kolokwium 2 Grupa C**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/GrupaC)
+
+ - **[Treść zadań](KOLOKWIUM/exam2/GrupaD/README.md) - Kolokwium 2 Grupa D**
+   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/GrupaD)
 
 **[Treść zadań](KOLOKWIUM/exam3/README.md) - Kolokwium 3**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam3)
