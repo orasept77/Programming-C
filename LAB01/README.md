@@ -20,7 +20,7 @@
 Utwórz folder Lab2 na pulpicie, następnie otwórz folder w Visual Studio Code.
 
 
-### Zadanie 1 - I/O i zmienne
+### [Zadanie 1 - I/O i zmienne](https://github.com/dawidolko/Programming-C/blob/main/LAB01/zadanie1.c)
 Deklaracja zmiennej wygląda następująco `[typ zmiennej] [nazwa zmiennej];
 np.:
 
@@ -115,7 +115,7 @@ Korzystając z dokumentacji funkcji [printf](https://documentation.help/C-Cpp-Re
 
 Przypisz zmiennym nowe wartości będące danymi kolegów po twojej lewej i prawej stronie i wypisz te wartości. (Program powinien wypisywać informacje o 3 osobach)
 
-### Zadanie 2 - Operatory
+### [Zadanie 2 - Operatory](https://github.com/dawidolko/Programming-C/blob/main/LAB01/zadanie2.c)
 Utwórz plik operators.c a następnie wykonaj poniższe polecenia.\
 **Operatory arytmrtyczne:**
 
@@ -188,10 +188,10 @@ printf("a == b - %i",a==b)
 
 Przetestuj działanie powyższych operatorów. Wyniki wypisz w standardowym wyjściu.
 
-### Zadanie 3 - I/O
+### [Zadanie 3 - I/O](https://github.com/dawidolko/Programming-C/blob/main/LAB01/zadanie3.c)
 Zapoznaj się z dokumentacją funkcji [scanf()](https://documentation.help/C-Cpp-Reference/scanf.html) a następnie utwórz program który zapyta użytkownika o wartość liczy a, następnie wartość liczby b po czym wypisze sumę tych dwóch liczb.
 
-### Zadanie 4 - Instrukcje warunkowe
+### [Zadanie 4 - Instrukcje warunkowe](https://github.com/dawidolko/Programming-C/blob/main/LAB01/zadanie4.c)
 Zapoznaj się z dokumentacją instrukcji
 [if](https://learn.microsoft.com/pl-pl/cpp/c-language/if-statement-c?view=msvc-170) oraz 
 [switch](https://learn.microsoft.com/pl-pl/cpp/c-language/switch-statement-c?view=msvc-170).
@@ -237,7 +237,7 @@ Napisz program który prosi użytkownika o wpisanie liczby a nastepnie sprawdza 
 
 Napisz program który prosi użytkownika o dwie wartości liczbowe oraz jedną znakową + - * lub /. Używając instrukcji switch wykonaj obliczenia w zależności od wyboru użytkownika.
 
-### Zadanie 5
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB01/zadanie5.c)
 utwórz plik arguments.c a w nim umieść poniższy kod:
 
 ```c
@@ -255,7 +255,7 @@ Skompiluj kod do pliku uruchomieniowego `arguments.exe`. Uruchom kod poleceniem 
 
 Przetestuj działanie kodu uruchamiając program z róznymi argumentami np. `arguments.exe 1 2 3 4`(W jaki sposób odczytać wartość "4" z tego polecenia?), w komentarzu napisz co przechowuje zmienna argc oraz argv. 
 
-### Zadanie 6
+### [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/LAB01/zadanie6.c)
 Napisz program delta.exe przyjmujący parametry a b c który wypisze w standardowym wyjściu wartość delty. 
 
 $$ 
