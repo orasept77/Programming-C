@@ -61,15 +61,15 @@ redirect_to: c.dawidolko.pl
 ### Kursy:
 
 **[Co to kursy?](courses/README.md) - Definicja i zagadnienia**
-- [Kurs 1](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)
+- **[Kurs 1](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)**
   - [Opis kursu](courses/Course1/README.md)
 
   
-- [Kurs 2](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)
+- **[Kurs 2](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)**
   - [Opis kursu](courses/Course2/README.md)
 
   
-- [Kurs 3](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)
+- **[Kurs 3](https://github.com/dawidolko/Programming-C/tree/main/courses/Course1)**
   - [Opis kursu](courses/Course3/README.md)
 
 
