@@ -13,7 +13,7 @@
 ## Przykłady
 ### Defioniowanie tablic jedno i [wielowymiarowych](https://cse.engineering.nyu.edu/~mleung/CS1114/s08/ch08/MDmemory.htm):
 
-```c
+```
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
@@ -141,7 +141,7 @@ int main(int argc, char const *argv[])
 ```
 ## Zadania
 
-### Zadanie 1 - `task1.exe`
+### [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/LAB02/task1.c) - `task1.exe`
 Utwórz program który przechowa dane następującej tabeli:
 | 3.1 | 3.6 |
 |-----|-----|
@@ -152,7 +152,7 @@ Utwórz program który przechowa dane następującej tabeli:
 Wypisz w konsoli zaznaczoną wartość używając indeksów.
 Zmodyfikuj program tak by użytkownik mógł wskazać który element tablicy chce odczytać.
 
-### Zadanie 2 - `forexcercise.exe`
+### [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/LAB02/forexcercise.c) - `forexcercise.exe`
 Utwórz program który wypisuje liczby od 0 do 20.
 
 Utwórz program który wypisuje liczby od 5 do 25.
@@ -163,25 +163,25 @@ Utwórz program który wypisuje począwszy od 1 co 3 kolejną liczbę do wartoś
 
 Utwórz program który wypisuje 100 liczb podzielnych przez 5.
 
-### Zadanie 3 - `printtable.exe`
+### [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/LAB02/printtable.c) - `printtable.exe`
 Utwórz program który wypisze w konsoli tablicę z poprzedniego zadania wykorzystując pętlę w formacie:<br>
 | 3.1&emsp;| 3.6&nbsp;&nbsp;&emsp;|<br>
 | 2.2&emsp;| 6.42&emsp;|<br>
 | 3.1&emsp;| 3.6&nbsp;&nbsp;&emsp;|<br>
 | 3.5&emsp;| 32.6&emsp;|<br>
 
-### Zadanie 4 - `task4.exe`
+### [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/LAB02/task4.c) - `task4.exe`
 <!-- Utwórz program który w tablicy oddarray przechowuje 1000 kolejnych liczb parzystych za pomocą pętli for. Jaki rozmiar tablicy musisz ustawić by zabrakło pamięci? -->
 
 Używając instrukcji break i continue napisz program który wypisze liczby od 0 do zadanej przez użytkownika wartości z pominięciem liczb podzielnych przez 3.
 
-### Zadanie 5 - `otherloops.exe`
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB02/otherloops.c) - `otherloops.exe`
 Spróbuj wykonać poprzednie zadanie za pomocą innej pętli(jeśli używałeś for za pomocą pętli `while` lub `do-while`).
 
-### Zadanie 6 - `primenumbers.exe`
+### [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/LAB02/primenumbers.c) - `primenumbers.exe`
 Utwórz program który wypisuje kolejne liczby pierwsze.*
 
-### Zadanie 7 - `twodimensionarray.exe`
+### [Zadanie 7](https://github.com/dawidolko/Programming-C/blob/main/LAB02/twodimensionarry.c) - `twodimensionarray.exe`
 Napisz program który przechowuje w tablicy 3x3 wartości podane przez użytkownika. 
 
 Dodaj do programu menu z następującymi opcjami:
