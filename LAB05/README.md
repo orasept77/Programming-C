@@ -141,7 +141,7 @@ int main(){
 
 
 ## Zadania
-### Zadanie 1 `task1.exe`
+### [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/LAB05/task1.c) `task1.exe`
 Wygeneruj wszystkie kombinacje dwu elementowe z powtórzeniami liczb 0 i 1:
 [0 0]
 [0 1]
@@ -165,7 +165,7 @@ Kombinacje dwóch liczb wygenerować można w taki sam sposób jak przeglądają
 
 </details>
 
-### Zadanie 2 `task2.exe`
+### [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/LAB05/task2.c) `task2.exe`
 Utwórz kalkulator BMI w którym użytkownik podaje swoją wagę oraz wzrost a następnie wypisana zostaje informacja według następujących przedziałów:<br>
 ![](https://www.zikodlazdrowia.org/wp-content/uploads/2020/06/bmi-scale_ziko_dla_zdrowia.png)
 
@@ -175,7 +175,7 @@ $$
 kg - masa ciała w kilogramach
 m - wzrost w metrach
 
-### Zadanie 3 `Task3.exe`
+### [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/LAB05/task3.c) `Task3.exe`
 
 Utwórz strukturę `patient` przechowującą dane na temat pacjentów: Imię, nazwisko, wiek, pesel, wzrost, waga.
 
@@ -316,7 +316,7 @@ int main(int argc, char const *argv[])
 
 </details>
 
-### Zadanie 4 `mytime.exe`
+### [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/LAB05/mytime.c) `mytime.exe`
 
 Utwórz strukturę `date` przechowującą: rok, miesiąc, numer dnia w miesiącu, godzinę, liczbę minut, liczbę sekund.
 
@@ -341,7 +341,7 @@ Utwórz funkcję `printtime()` która działa podobnie jak funkcja `showtime()` 
 Utwórz funkcję `isbetweendates()` która przyjmuje 3 daty i zwraca jeden jeśli data podana jako pierwszy argument znajduje się w okresie pomiędzy pozostałymi dwoma argumentami. 0 w przeciwnym przypakdu.
 
 
-### Zadanie 5 `task5.exe`
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB05/task5.c) `task5.exe`
 
 Napisz funkcję obliczającą miejsca zerowe funkcji kwadratowej. Uwzględnij że funkcja może zwracać zero, jedną lub dwie wartości. W komentarzach opisz działanie funkcji, argumenty jakie przyjmuje oraz zaprezentuj działanie na wybranych przykładach.
 
