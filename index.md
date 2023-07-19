@@ -45,7 +45,7 @@ redirect_to: c.dawidolko.pl
 
 
 **[Kolokwium](KOLOKWIUM/README.md) - 0, 1, 2, 3 kolokwia**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/Kolokwium)
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM)
 
 
 **[Przykład](Example_tasks/README.md) - Przykłady zadań**
