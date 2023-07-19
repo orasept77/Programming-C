@@ -6,7 +6,7 @@ Wybrać jedno z poniższych zadań. Pliki z rozwiązaniami nazwać w zależnośc
 - `bdb_gr1.c` i `bdb.exe` dla oceny 5
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## Bardzo dobry
+## [Bardzo dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa1/bdb_gr1.c)
 
 ### EK_3
 
@@ -66,7 +66,7 @@ X
 ```
 
 
-## Dobry
+## [Dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa1/db_gr1.c)
 
 ### EK_3
 
@@ -99,7 +99,7 @@ Napisz funkcję `duplicate_row()` która duplikuje wybrany wiersz `n` razy i pod
 Napisz funkcję main która przetestuje działanie zaimplementowanych wcześniej funkcji i wyniki zapisze w pliku `wyniki.txt`
 
 
-## Dostateczny
+## [Dostateczny](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa1/dst_gr1.c)
 
 ### EK_3
 
