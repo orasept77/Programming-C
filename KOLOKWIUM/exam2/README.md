@@ -93,6 +93,7 @@ W funkcji `main()` zainicjalizuj nastepujące tablice i przetestuj działanie fu
 3.0000 2.0000 1.0000 X 3 = 9.0000 6.0000 3.0000
 ```
 
+## [DOBRY](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa4/db_gr4.c)
 
 ### Obliczanie odległości Euklidesa dla dwóch wektorów.
 
@@ -129,11 +130,6 @@ Przetestuj działanie funkcji.
 ### Sprawdzanie czy łańcuchy znaków są takie same
 
 Utwórz funkcję `compare()` która przyjmuje dwie tablice o takiej samej długości zawierające znaki oraz liczbę znaków. Funkcja zwraca 0 jeśli słowa są takie same lub ilość liter którymi się różnią.
-
-## [DOBRY](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa4/db_gr4.c)
-
-
-
 
 ## [BARDZO DOBRY](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa4/bdb_gr4.c)
 
