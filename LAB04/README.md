@@ -380,7 +380,7 @@ int main(int argc, char const *argv[])
 ### Zadanie 0
 Przeanalizuj działanie przykładów.
 
-### Zadanie 1 `task1.exe`
+### [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task1.c) `task1.exe`
 Za pomocą pętli wypisz wszystkie znaki char i odpowiadające im wartośći całkowite w następującej postaci:
 
 ```terminal
@@ -394,7 +394,7 @@ Za pomocą pętli wypisz wszystkie znaki char i odpowiadające im wartośći ca�
 ...
 ```
 
-### Zadanie 2 `task2.exe`
+### [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task2.c) `task2.exe`
 Napisz funkcję `radianToDegree()` oraz `degreeToRadian()` zamieniającą radiany na stopnie oraz stopnie na radiany. Funkcja powinna zwracać typ double.
 
 $$
@@ -405,20 +405,20 @@ $$
 \alpha(^\circ) = \frac{\alpha(rad)* 180^\circ}{\pi}
 $$
 
-### Zadanie 3  `task3.exe`
+### [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task3.c)  `task3.exe`
 
 Zadeklaruj zmienną `string` przechowującą łańcuch znaków o długości 200 znaków.
 Wartość zmiennej podaje użytkownik. Wypisz informację o ilości znaków w zmiennej:
 - z wykorzystaniem funkcji biblioteki standardowej.
 - bez korzystania z biblioteki standardowej.
 
-### Zadanie 4 `task4.exe`
+### [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task4.c) `task4.exe`
 
 Napisz funkcję `countwords()` która wypisze ilość słów w łańcuchu znaków wedle zadanego separatora.
 
 *Napisz funkcję `countcharacters()` która wypisze informacje na temat ile w podanym jako parametr łańcuchu znaków znajduje się znaków specjalnych, cyfr, liter.
 
-### Zadanie 5 `task5.exe`
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task5.c) `task5.exe`
 
 Napisz funkcję `comparestr()` która w procentach określi podobieństwo dwóch łańcuchów znaków (takie same znaki na tej samej pozycji oznaczają podobieństwo).
 
@@ -428,11 +428,11 @@ char str1[100] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 char str2[50] = "      ipsum dolor sit amet";
 ```
 
-### Zadanie 6 `task6.exe`
+### [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task6.c) `task6.exe`
 
 Przetestuj działanie funkcji kopiującej łańcuch znaków z biblioteki standardowej. Następnie bez korzystania z bibliotek standardowych napisz funkcję `cpystr()` która kopiuje zawartość łańcucha znaków do innej zmiennej.
 
-### Zadanie 7 `task7.exe`
+### [Zadanie 7](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task7.c) `task7.exe`
 
 Przetestuj działanie funkcji łączącej dwa łańcuchy znaków.
 Napisz własną funkcję `catstr` łączącą dwa łańcuchy znaków.
@@ -441,7 +441,7 @@ Jeśli użytkownik będzie próbował połączyć dwa łańcuchy znaków tak że
 
 Przetestuj działanie funkcji. Napisz odpowiednie komentarze objaśniające co testuje dany przypadek.
 
-### Zadanie 8 `task8.exe`
+### [Zadanie 8](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task8.c) `task8.exe`
 
 Napisz funkcję `findandreplace()` która w podanym jako parametr łańcuchu znaków szuka słowa podanego jako inny parametr a nastepnie zamienia na słowo podane jako kolejny parametr funkcji. Funkcja zwraca liczbę zmienionych słów.
 
@@ -452,7 +452,7 @@ findandreplace("aaa ccc bbbcccdddwww ccc", "ccc", "aaa")
 zamieni "aaa ccc bbbcccdddwww ccc" na "aaa aaa bbbcccdddwww aaa" i zwróci wartość 2.
 
 
-### Zadanie 9 `task9.exe`
+### [Zadanie 9](https://github.com/dawidolko/Programming-C/blob/main/LAB04/task9.c) `task9.exe`
 
 Napisz program który wypisze wszystkie kombinacje z powtórzeniami 3 cyfrowe liczb 1, 2, 3, 4.
 
