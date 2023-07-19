@@ -65,7 +65,7 @@ redirect_to: c.dawidolko.pl
 **[Treść zadań](KOLOKWIUM/exam4/README.md) - Kolokwium 4**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam4)
 
-**[Treść zadań](KOLOKWIUM/wejsciowki/README.md) - Kolokwium 6**
+**[Treść zadań](KOLOKWIUM/wejsciowki/README.md) - Wejściówki**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/wejsciowki)
 
 ### Projekty:
