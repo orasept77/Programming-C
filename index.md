@@ -53,15 +53,15 @@ redirect_to: c.dawidolko.pl
  **[Treść zadań](KOLOKWIUM/exam1/README.md) - Kolokwium 1**
 
 - **[Treść zadań](KOLOKWIUM/exam1/Grupa1/README.md) - Kolokwium 1 Grupa 1**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa1)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa1)
 
 - **[Treść zadań](KOLOKWIUM/exam1/Grupa2/README.md) - Kolokwium 1 Grupa 2**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa2)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa2)
 
 **[Treść zadań](KOLOKWIUM/exam2/README.md) - Kolokwium 2**
 
 - **[Treść zadań](KOLOKWIUM/exam2/Grupa1/README.md) - Kolokwium 2 Grupa 1**
- - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa1)
+  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa1)
 
 - **[Treść zadań](KOLOKWIUM/exam2/Grupa2/README.md) - Kolokwium 2 Grupa 2**
    - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa2)
