@@ -23,7 +23,4 @@ W funkcji main:
 
 ## 4. Wyprowadzić z KONTENERA dane na monitor.
 
-## 5. Zwolnić pamięć dla tablicy dynamicznej.
-
-Nie zmieniamy kolejności zadań 1, 2, 3, … .
-Specyfikacja do zadania powinna być ścisłe wykonana!
+## 5. Zwolnić pamięć dla tablicy dynamicznej. Nie zmieniamy kolejności zadań 1, 2, 3, … . Specyfikacja do zadania powinna być ścisłe wykonana!
