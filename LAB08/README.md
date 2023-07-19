@@ -199,29 +199,29 @@ int main(int argc, char const *argv[])
 
 Chcemy utworzyć tablicę która przyjmuje wartości różnego typu. Następnie funkcję która będzie wypisywała zawartość tablicy.
 
-### Zadanie 1
+### [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/LAB08/zadanie1.c)
 
 Utwórz typ wyliczeniowy `var_type` zawierający wartości INT, FLOAT, CHAR.
 
-### Zadanie 2
+### [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/LAB08/zadanie2.c)
 
 Utwórz struktórę `var` która będzie przechowywać typ zmiennej. Oraz wartość zmiennej. Typ zmiennej jest typem wyliczeniowym natomiast na przehcoywanie wartoścu utwórz unie o typach takich jak w poprzednim zadaniu.
 
-### Zadanie 3
+### [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/LAB08/zadanie3.c)
 
 Utwórz funckję `setInt()` `setFloat()` `setChar()` które przyjmują dwa arumenty, wskaźnik do zmiennej `var` i wartość zmiennej. Funkcje ustawiają odpowienio wartości zmiennej var.
 
-### Zadanie 4
+### [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/LAB08/zadanie4.c)
 
 Utwórz tablicę zawierającą 10 wartości typu `var`.
 Wypełnij tablicę wartości najpierw liczbami od 1 do 10.
 Wypełnij tablicę wartościami A, B, C, D ...
 
-### Zadanie 5
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB08/zadanie5.c)
 
 Utwóz funkcję varToString() która zwraca wskaźnik do łańcucha znaków. Np. jeśli var przechowuje wartość 100 to varToString() pwoinna zwrócić wskaźnik na tablicę przechowującą napis "100". Wykorzystaj funkcję [`sprintf()`](https://www.tutorialspoint.com/c_standard_library/c_function_sprintf.htm)
 
-### Zadanie 6
+### [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/LAB08/zadanie6.c)
 
 Wypisz zawartość tablic wykorzystując stworzone funkcje.
 
