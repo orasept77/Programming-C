@@ -44,7 +44,7 @@ redirect_to: c.dawidolko.pl
 ### Projekty:
 
 [Co to projekty?](projects/README.md) - Definicja i zagadnienia\
-[Repozytorium](https://github.com/dawidolko/Programming-C/tree/main/projects)
+ - [Repozytorium](https://github.com/dawidolko/Programming-C/tree/main/projects)
 
 ### Kursy:
 
