@@ -121,14 +121,14 @@ int main(int argc, char const *argv[])
 
 ## Zadania
 
-### Zadanie 1
+### [Zadanie 1](https://github.com/dawidolko/Programming-C/blob/main/LAB07/task1.c)
 Napisz program `task1` który utworzy plik `file.txt` zawierający napis "1 Bike 432".
 
 ```
 1 Bike 432
 ```
 
-### Zadanie 2
+### [Zadanie 2](https://github.com/dawidolko/Programming-C/blob/main/LAB07/task2.c)
 
 #### Ad. 1
 Napisz program `task2` który do pliku `file.txt` doda kolejną linijkę "2 Monitor 200".
@@ -148,7 +148,7 @@ Przy kolejnych uruchomieniach programu plik `file.txt` powinien dopisywać kolej
 ```
 Zmodyfikuj program aby sprawdzał czy linijka z numerem "2." istnije. Jeśli tak nie modyfikuj pliku, jeśli nie istnieje nadpisz plik.
 
-### Zadanie 3
+### [Zadanie 3](https://github.com/dawidolko/Programming-C/blob/main/LAB07/task3.c)
 Napisz program `task3` który wypisze zawartość pliku `file.txt`. Następnie poprosi o podanie nazwy przedmiotu oraz ceny przez użytkownika, dopisze je do pliku po czym wypisze jego nową zawartość i zakońćzy działanie. Przy kolejnych uruchomieniach program powienien sam generować kolejne numerki przedmiotów.
 
 ```
@@ -166,18 +166,18 @@ Zawartosc pliku:
 3 Helmet 376
 ```
 
-### Zadanie 4
+### [Zadanie 4](https://github.com/dawidolko/Programming-C/blob/main/LAB07/file_stat.c)
 Napisz program `file_stat` który wypisze liczbę znaków w pliku `file.txt`.
 Rozbuduj program aby wyświetlał liczbę linii w pliku.
 Rozbuduj program tak aby wypisywał rozmiar pliku wyrażony w kB lub Bajtach.
 
-### Zadanie 5
+### [Zadanie 5](https://github.com/dawidolko/Programming-C/blob/main/LAB07/utils.c)
 Utwórz pliki `utils.c`. W pliku utwórz funkcję `filetoarray(char *path)` która odczyta dane z pliku którego nazwa przekazana jest przez parametr path. W funkcji utwórz tablicę zdolną przechować cały plik (można wykorzystać funkcję malloc()). Następnie wypełnij tablicę danymi z pliku.
 Funkcja powinna zwrócić wskaźnik do wypełnionej tablicy.
 
 Przetestuj działanie funkcji na pliku `file.txt` i wypisz rezultat w konsoli (zawartość tablicy zwróconej przez funkcję `filetoarray()`).
 
-### Zadanie 6
+### [Zadanie 6](https://github.com/dawidolko/Programming-C/blob/main/LAB07/podziel.c)
 plik csv (comma-separated values) jest to plik gdzie wartości są oddzielone przecinkiem.
 Pobierz plik iris.data z archiwum uci https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 Informacje zawarte w pliku:
@@ -195,7 +195,7 @@ Pomocna będzie funkcja fgetc() dzięki której możliwe będzie sprawdzenie czy
 
 Resztę danych zapisz do pliku `test.csv` (pozostałe 20% z każdego gatunku).
 
-### Zadanie 7
+### [Zadanie 7](https://github.com/dawidolko/Programming-C/blob/main/LAB07/test.c
 Utwórz program `test.c` a w nim:
 - Utwórz strukturę `iris_row` która będzie przechowywać dane z jednego wiersza iris.data.
 - Utwórz funkcję `load_data()` która przyjmuje wskaźnik na tablicę zawierajacą łańcuch znaków będący ścieżką do pliku.`load_data(char *path)`
@@ -203,6 +203,6 @@ Utwórz program `test.c` a w nim:
     - Struktury są przechowywane w tablicy.
     - Funkcja zwraca wskaźnik do tablicy zawierającej dane.
 
-### Zadanie 8
+### [Zadanie 8](https://github.com/dawidolko/Programming-C/blob/main/LAB07/kalkulator.c)
 Napisz program `kalkulator` który będzie posiadał opcje dodawania, odejmowania, mnożenia, dzielenia, potęgowania i obliczania pierwiastka stopnia drugiego z liczby. Kalkulator powinien zapisywać historię wykonywanych działań do pliku `log.txt`.
 
