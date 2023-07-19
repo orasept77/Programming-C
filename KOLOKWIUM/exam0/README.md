@@ -1,6 +1,6 @@
 # Kolokwium 0
 
-## **Zadanie1.**
+## **[Zadanie1.](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam0/1.c)**
 Zdefinuj funkcję ```int count_nonzeros(int* tab, int len)```, która zwraca liczbe elementów z tablicy tab niebędących zerami. Tablica ma dłuosc len. `(3p.)`
 
 Przykladowe wywołanie:
@@ -11,7 +11,7 @@ printf("%d\n", count_zeros(data, 10));
 Wyjście standardowe:
 `5`
 
-## **Zadanie2.**
+## **[Zadanie2.](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam0/2.c)**
 Zdefiniuj funkcję ```float med(float a, float b, float c)```, która zwróci środkową wartość z 3 jej paramertów a, b, c. `(2p.)`
 
 Przykładowe wywołanie:
@@ -25,7 +25,7 @@ Wyjście standardowe:
 10.5
 ```
 
-## **Zadanie 3.**
+## **[Zadanie 3.](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam0/3.c)**
 Napisz program, który wczytuje od użytkownika jedną liczbę n, a następnie wypisuje na konsoli gwiazdki, układające się w trójkąt prostokątny o boku n gwiazdek. `(3p.)`
 
 Przykładowe wejscie: 
