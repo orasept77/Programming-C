@@ -6,7 +6,7 @@ Wybrać jedno z poniższych zadań. Pliki z rozwiązaniami nazwać w zależnośc
 - `bdb_gr3.c` i `bdb.exe` dla oceny 5
 Po zakończeniu kolokwium pliki spakować w archiwum .zip i przesłać za pomocą formularza.
 
-## Bardzo dobry
+## [Bardzo dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa3/bdb_gr3.c)
 
 ### EK_3
 
@@ -101,7 +101,7 @@ det = 0.00
 <br>
 <br>
 
-## Dobry
+## [Dobry](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa3/db_gr3.c)
 
 ### EK_3
 Napisz funkcję `allocate_2d_array()` która dynamicznie alokuje miejsce w pamięci na macierz liczb zmiennoprzecinkowych o rozmiarze przekazanym jako parametry funkcji. Funkcja zwraca wskaźnik na tę macierz.
@@ -178,7 +178,7 @@ Zmodyfikuj program tak aby historia działań użytkownika została zapisana do 
 <br>
 <br>
 
-## Dostateczny
+## [Dostateczny](https://github.com/dawidolko/Programming-C/blob/main/KOLOKWIUM/exam2/Grupa3/dst_gr3.c)
 
 ### EK_3
 
