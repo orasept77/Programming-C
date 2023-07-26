@@ -121,6 +121,16 @@ redirect_to: c.dawidolko.pl
 
 <br>
 
+**[Treść zadań](KOLOKWIUM/exam5/README.md) - Kolokwium 5**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam5)
+
+<br>
+
+**[Treść zadań](KOLOKWIUM/exam6/README.md) - Kolokwium 6**
+ - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam6)
+
+<br>
+
 **[Treść zadań](KOLOKWIUM/wejściówki/README.md) - Wejściówki**
  - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/wejsciówki)
 
