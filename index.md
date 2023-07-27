@@ -65,7 +65,7 @@
 - [Treść zadań](KOLOKWIUM/exam1/Grupa1/README.md) **- Kolokwium 1 Grupa 1**
   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa1)
 
-- Treść zadań](KOLOKWIUM/exam1/Grupa2/README.md) **- Kolokwium 1 Grupa 2**
+- [Treść zadań](KOLOKWIUM/exam1/Grupa2/README.md) **- Kolokwium 1 Grupa 2**
   - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam1/Grupa2)
  
  <br>
@@ -78,7 +78,7 @@
 - [Treść zadań](KOLOKWIUM/exam2/Grupa2/README.md) **- Kolokwium 2 Grupa 2**
    - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa2)
 
-- *Treść zadań](KOLOKWIUM/exam2/Grupa3/README.md) **- Kolokwium 2 Grupa 3**
+- [Treść zadań](KOLOKWIUM/exam2/Grupa3/README.md) **- Kolokwium 2 Grupa 3**
    - [Rozwiązane zadania](https://github.com/dawidolko/Programming-C/tree/main/KOLOKWIUM/exam2/Grupa3)
 
 - [Treść zadań](KOLOKWIUM/exam2/Grupa4/README.md) **- Kolokwium 2 Grupa 4**
