@@ -1,6 +1,6 @@
 ---
 redirect_to: c.dawidolko.pl
-layout: page
+layout: center
 title: Programming-C
 icon: logo.png
 ---
