@@ -1,5 +1,8 @@
 ---
 redirect_to: c.dawidolko.pl
+layout: default
+title: Programming-C
+icon: logo.png
 ---
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=000000&width=600&height=100&lines=J%C4%99zyk+C)](https://github.com/dawidolko/Programming-C)
